@@ -2,9 +2,7 @@
 <mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33ff0bd4-4a7d-48d9-9dcb-efea1890f22f">
   <producedTypes>
     <objectType typeId="c06f391e-7b54-441b-bd8d-5aacd2254ce7" valueTypeId="6a4b740c-58ad-405d-846d-5892180805a1"/>
-    <refType typeId="1723e63a-8d35-4350-a76b-cc06b3818caa" valueTypeId="759ff703-5187-4619-835a-41c976c27c91">
-      <emptyRef/>
-    </refType>
+    <refType typeId="1723e63a-8d35-4350-a76b-cc06b3818caa" valueTypeId="759ff703-5187-4619-835a-41c976c27c91"/>
     <selectionType typeId="f5e42c7b-64dc-4103-ad94-e8b18c893316" valueTypeId="27248ad4-e6f9-4a70-8e35-c927c891dcf4"/>
     <listType typeId="3ac9712d-95e8-49f5-b79d-1059a7e13fca" valueTypeId="088899b3-4b44-4dd3-ba54-3cfef5c57b88"/>
     <managerType typeId="dc853805-60f8-4aaa-b52a-63a825428c71" valueTypeId="27772126-ac82-4896-bb11-9e766098f680"/>
@@ -114,6 +112,7 @@
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

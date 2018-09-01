@@ -1863,10 +1863,6 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:LabelFieldExtInfo">
-        <handlers>
-          <event>StartChoice</event>
-          <name>ИмяФайлаНачалоВыбора</name>
-        </handlers>
         <autoMaxHeight>true</autoMaxHeight>
       </extInfo>
     </items>
