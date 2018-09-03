@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2829580f-b4aa-4d70-ac64-a6628c7e1440">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aggregates="http://g5.1c.ru/v8/dt/aggregates" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2829580f-b4aa-4d70-ac64-a6628c7e1440">
   <producedTypes>
     <selectionType typeId="8a4ee50b-d8f6-42d9-be1c-9e8321357084" valueTypeId="1458ba21-f97b-4f28-a80b-646fbcfe3173"/>
     <listType typeId="39b8dfde-7f59-467f-9870-bf10c8129fa6" valueTypeId="7769d9f4-098f-4686-94d9-7d42cbdb3a11"/>
@@ -60,6 +60,28 @@
   </standardAttributes>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
+  <aggregates xsi:type="aggregates:AccumulationRegisterAggregates">
+    <aggregates id="4b96115b-6bdd-4f7f-a2a8-3fe55bd0125d">
+      <periodicity>Day</periodicity>
+      <dimensions>AccumulationRegister.Продажи.Dimension.Контрагент</dimensions>
+      <dimensions>AccumulationRegister.Продажи.Dimension.Менеджер</dimensions>
+    </aggregates>
+    <aggregates id="658bf71f-5dc6-4844-840d-d3eaffec4819">
+      <periodicity>Quarter</periodicity>
+      <dimensions>AccumulationRegister.Продажи.Dimension.Номенклатура</dimensions>
+      <dimensions>AccumulationRegister.Продажи.Dimension.Контрагент</dimensions>
+    </aggregates>
+    <aggregates id="80c030a6-faf8-4da4-8474-e8c764c1e0fd">
+      <periodicity>Month</periodicity>
+      <dimensions>AccumulationRegister.Продажи.Dimension.Номенклатура</dimensions>
+      <dimensions>AccumulationRegister.Продажи.Dimension.Контрагент</dimensions>
+      <dimensions>AccumulationRegister.Продажи.Dimension.Склад</dimensions>
+      <dimensions>AccumulationRegister.Продажи.Dimension.Менеджер</dimensions>
+    </aggregates>
+    <aggregates id="85768d15-d577-4051-92ea-e6ecba4c4c7e">
+      <use>Always</use>
+    </aggregates>
+  </aggregates>
   <resources uuid="c9f87064-5b11-400c-8df5-efbfcbc72e48">
     <name>Количество</name>
     <synonym>

@@ -88,6 +88,17 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
+  <attributes uuid="662bc8e1-63a8-4ce9-9a0e-f1c94fa74a17">
+    <name>ОтветственныйЗаЗакупки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный за закупки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Менеджеры</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
   <dimensions uuid="3736a310-fa80-40a7-986a-3e175f9ccf2e">
     <name>Номенклатура</name>
     <synonym>
