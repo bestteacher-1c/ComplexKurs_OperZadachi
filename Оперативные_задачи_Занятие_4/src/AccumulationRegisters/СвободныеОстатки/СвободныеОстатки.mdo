@@ -78,11 +78,7 @@
     </synonym>
     <comment></comment>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>15</precision>
-        <scale>3</scale>
-      </numberQualifiers>
+      <types>DefinedType.КоличествоНоменклатуры</types>
     </type>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
