@@ -68,11 +68,7 @@
     </synonym>
     <comment></comment>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>15</precision>
-        <scale>3</scale>
-      </numberQualifiers>
+      <types>DefinedType.КоличествоНоменклатуры</types>
     </type>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -87,11 +83,7 @@
     </synonym>
     <comment></comment>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>15</precision>
-        <scale>2</scale>
-      </numberQualifiers>
+      <types>DefinedType.СуммаНоменклатуры</types>
     </type>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -106,11 +98,7 @@
     </synonym>
     <comment></comment>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>15</precision>
-        <scale>2</scale>
-      </numberQualifiers>
+      <types>DefinedType.СуммаНоменклатуры</types>
     </type>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
