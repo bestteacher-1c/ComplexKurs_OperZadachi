@@ -48,7 +48,9 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.ТорговыеОперации</subsystems>
+  <subsystems>Subsystem.ПланированиеУслуг</subsystems>
   <commonPictures>CommonPicture.Продажи</commonPictures>
+  <commonPictures>CommonPicture.ОказаниеУслуг</commonPictures>
   <interfaces>Interface.ОсновнойИнтерфейс</interfaces>
   <commonModules>CommonModule.Сервис</commonModules>
   <commonModules>CommonModule.Серверный</commonModules>
@@ -70,7 +72,10 @@
   <documents>Document.РеализацияТоваровИУслуг</documents>
   <documents>Document.ПолучениеДенег</documents>
   <documents>Document.ВыплатаДенег</documents>
+  <documents>Document.ПланированиеОказанияУслуг</documents>
+  <documents>Document.ОказаниеУслугСервисМенеджером</documents>
   <documentJournals>DocumentJournal.Товарный</documentJournals>
+  <documentJournals>DocumentJournal.ПланированиеУслуг</documentJournals>
   <enums>Enum.МетодыСписанияСебестоимости</enums>
   <reports>Report.ОстаткиТоваровБезМакета</reports>
   <reports>Report.ОстаткиТоваров_ТабДок_НаОсновеМакета</reports>

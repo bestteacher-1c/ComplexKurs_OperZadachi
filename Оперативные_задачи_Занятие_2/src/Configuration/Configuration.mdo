@@ -48,6 +48,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.ТорговыеОперации</subsystems>
+  <subsystems>Subsystem.ПланированиеУслуг</subsystems>
   <commonPictures>CommonPicture.Продажи</commonPictures>
   <commonPictures>CommonPicture.ОказаниеУслуг</commonPictures>
   <interfaces>Interface.ОсновнойИнтерфейс</interfaces>
@@ -71,9 +72,12 @@
   <documents>Document.РеализацияТоваровИУслуг</documents>
   <documents>Document.ПолучениеДенег</documents>
   <documents>Document.ВыплатаДенег</documents>
+  <documents>Document.ПланированиеОказанияУслуг</documents>
+  <documents>Document.ОказаниеУслугСервисМенеджером</documents>
   <documentNumerators>DocumentNumerator.Денежный</documentNumerators>
   <documentJournals>DocumentJournal.Товарный</documentJournals>
   <documentJournals>DocumentJournal.Касса</documentJournals>
+  <documentJournals>DocumentJournal.ПланированиеУслуг</documentJournals>
   <enums>Enum.МетодыСписанияСебестоимости</enums>
   <reports>Report.Продажи</reports>
   <reports>Report.ВзаиморасчетыСКонтрагентами</reports>
