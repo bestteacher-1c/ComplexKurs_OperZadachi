@@ -73,6 +73,8 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <forms uuid="b2c459f9-7c3c-4e95-82c5-55c5464c5d93">
     <name>ФормаСписка</name>
