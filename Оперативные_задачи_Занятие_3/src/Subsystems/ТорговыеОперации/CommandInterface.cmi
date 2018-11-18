@@ -68,12 +68,6 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>AccumulationRegister.ОстаткиТоваров.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>AccumulationRegister.Продажи.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
@@ -87,24 +81,6 @@
     </visibilityFragments>
     <visibilityFragments>
       <command>AccumulationRegister.Касса.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:199c9b9a-09a6-4e1a-a31c-e4fe9cb58884</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>AccumulationRegister.СебестоимостьТоваровПоПартиям.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>AccumulationRegister.ТоварыВРезерве.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
       </visible>
@@ -133,13 +109,9 @@
     <placementFragments>
       <group>CommandGroup.Регистры</group>
       <commands>InformationRegister.НашиЦены.StandardCommand.OpenList</commands>
-      <commands>AccumulationRegister.ОстаткиТоваров.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.Продажи.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.Взаиморасчеты.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.Касса.StandardCommand.OpenList</commands>
-      <commands>0:199c9b9a-09a6-4e1a-a31c-e4fe9cb58884</commands>
-      <commands>AccumulationRegister.СебестоимостьТоваровПоПартиям.StandardCommand.OpenList</commands>
-      <commands>AccumulationRegister.ТоварыВРезерве.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
@@ -165,20 +137,13 @@
     <orderFragments>
       <group>CommandGroup.Регистры</group>
       <commands>InformationRegister.НашиЦены.StandardCommand.OpenList</commands>
-      <commands>AccumulationRegister.ОстаткиТоваров.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.Продажи.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.Взаиморасчеты.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.Касса.StandardCommand.OpenList</commands>
-      <commands>0:199c9b9a-09a6-4e1a-a31c-e4fe9cb58884</commands>
-      <commands>AccumulationRegister.СебестоимостьТоваровПоПартиям.StandardCommand.OpenList</commands>
-      <commands>AccumulationRegister.ТоварыВРезерве.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>ActionsPanelReports</group>
       <commands>Report.Продажи.StandardCommand.Open</commands>
-      <commands>Report.ВаловаяПрибыльДокумента.StandardCommand.Open</commands>
-      <commands>Report.ВедомостьПоТоварам.StandardCommand.Open</commands>
-      <commands>Report.ВзаиморасчетыСКонтрагентами.StandardCommand.Open</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

@@ -85,7 +85,6 @@
   <registerRecords>AccumulationRegister.ТоварыВРезерве</registerRecords>
   <registerRecords>AccumulationRegister.Взаиморасчеты</registerRecords>
   <registerRecords>AccumulationRegister.ОстаткиТоваров</registerRecords>
-  <registerRecords>AccumulationRegister.СебестоимостьТоваровПоПартиям</registerRecords>
   <registerRecords>AccumulationRegister.СебестоимостьТоваров</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>

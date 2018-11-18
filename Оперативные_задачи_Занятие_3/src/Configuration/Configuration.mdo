@@ -47,8 +47,8 @@
     <comment></comment>
     <languageCode>ru</languageCode>
   </languages>
-  <subsystems>Subsystem.ТорговыеОперации</subsystems>
   <subsystems>Subsystem.ПланированиеУслуг</subsystems>
+  <subsystems>Subsystem.ТорговыеОперации</subsystems>
   <commonPictures>CommonPicture.Продажи</commonPictures>
   <commonPictures>CommonPicture.ОказаниеУслуг</commonPictures>
   <interfaces>Interface.ОсновнойИнтерфейс</interfaces>
@@ -63,7 +63,6 @@
   <commandGroups>CommandGroup.Отчеты</commandGroups>
   <constants>Constant.ПервыйЗапуск</constants>
   <constants>Constant.МетодСписания</constants>
-  <commonForms>CommonForm.ИнтерфейсНачальнойСтраницы_</commonForms>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Склады</catalogs>
@@ -92,6 +91,5 @@
   <accumulationRegisters>AccumulationRegister.Касса</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.СебестоимостьТоваров</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.СебестоимостьТоваровПоПартиям</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ТоварыВРезерве</accumulationRegisters>
 </mdclass:Configuration>

@@ -881,14 +881,6 @@
         </userVisible>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>AccumulationRegister.СебестоимостьТоваровПоПартиям.StandardCommand.OpenByRecorder</command>
-        <group>FormNavigationPanelGoTo</group>
-        <index>1</index>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
         <command>1:199c9b9a-09a6-4e1a-a31c-e4fe9cb58884</command>
         <userVisible>
           <common>true</common>
