@@ -81,11 +81,13 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.РеализацияТоваровИУслуг.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.СвободныеОстатки</registerRecords>
+  <registerRecords>AccumulationRegister.СебестоимостьТоваров</registerRecords>
   <registerRecords>AccumulationRegister.Продажи</registerRecords>
   <registerRecords>AccumulationRegister.ТоварыВРезерве</registerRecords>
   <registerRecords>AccumulationRegister.Взаиморасчеты</registerRecords>
   <registerRecords>AccumulationRegister.ОстаткиТоваров</registerRecords>
-  <registerRecords>AccumulationRegister.СебестоимостьТоваров</registerRecords>
+  <registerRecords>InformationRegister.ПланированиеОказаниеУслуг</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="71527822-7c96-4a11-a45d-644f9459e76f">
@@ -246,21 +248,4 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
-  <commands uuid="3a49ab56-8e87-4e7f-9b40-d007cd333770">
-    <name>ВаловаяПрибыльПоДокументу</name>
-    <synonym>
-      <key>ru</key>
-      <value>Валовая прибыль по документу</value>
-    </synonym>
-    <comment></comment>
-    <group>CommandGroup.Отчеты</group>
-    <commandParameterType>
-      <types>DocumentRef.РеализацияТоваровИУслуг</types>
-    </commandParameterType>
-    <representation>PictureAndText</representation>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.Report</picture>
-    </picture>
-    <shortcut></shortcut>
-  </commands>
 </mdclass:Document>

@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Планирование услуг</value>
   </synonym>
+  <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">
@@ -15,4 +16,5 @@
   <content>Document.РеализацияТоваровИУслуг</content>
   <content>DocumentJournal.ПланированиеУслуг</content>
   <content>Catalog.СервисМенеджеры</content>
+  <content>InformationRegister.ПланированиеОказаниеУслуг</content>
 </mdclass:Subsystem>
