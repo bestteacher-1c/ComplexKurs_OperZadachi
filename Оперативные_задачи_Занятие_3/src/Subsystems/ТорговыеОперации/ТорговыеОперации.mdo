@@ -32,4 +32,5 @@
   <content>Report.ВзаиморасчетыСКонтрагентами</content>
   <content>Report.ВедомостьПоТоварам</content>
   <content>AccumulationRegister.СвободныеОстатки</content>
+  <content>Report.ЗакупкиПоОтветственным</content>
 </mdclass:Subsystem>

@@ -81,10 +81,11 @@
   <documentJournals>DocumentJournal.Касса</documentJournals>
   <documentJournals>DocumentJournal.ПланированиеУслуг</documentJournals>
   <enums>Enum.МетодыСписанияСебестоимости</enums>
-  <reports>Report.Продажи</reports>
-  <reports>Report.ВаловаяПрибыльДокумента</reports>
   <reports>Report.ВедомостьПоТоварам</reports>
   <reports>Report.ВзаиморасчетыСКонтрагентами</reports>
+  <reports>Report.ЗакупкиПоОтветственным</reports>
+  <reports>Report.Продажи</reports>
+  <reports>Report.ВаловаяПрибыльДокумента</reports>
   <dataProcessors>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.РасчетСебестоимости</dataProcessors>

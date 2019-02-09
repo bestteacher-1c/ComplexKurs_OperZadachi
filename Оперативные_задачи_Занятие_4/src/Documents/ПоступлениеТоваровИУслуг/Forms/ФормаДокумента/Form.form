@@ -912,8 +912,8 @@
       </cmiFragmentRecord>
       <cmiFragmentRecord>
         <command>AccumulationRegister.Взаиморасчеты.StandardCommand.OpenByRecorder</command>
-        <group>FormNavigationPanelSeeAlso</group>
-        <index>0</index>
+        <group>FormNavigationPanelGoTo</group>
+        <index>2</index>
         <userVisible>
           <common>true</common>
         </userVisible>
@@ -950,8 +950,8 @@
       </cmiFragmentRecord>
       <cmiFragmentRecord>
         <command>AccumulationRegister.ЗаказыПоставщикам.StandardCommand.OpenByRecorder</command>
-        <group>FormNavigationPanelGoTo</group>
-        <index>2</index>
+        <group>FormNavigationPanelSeeAlso</group>
+        <index>1</index>
         <userVisible>
           <common>true</common>
         </userVisible>

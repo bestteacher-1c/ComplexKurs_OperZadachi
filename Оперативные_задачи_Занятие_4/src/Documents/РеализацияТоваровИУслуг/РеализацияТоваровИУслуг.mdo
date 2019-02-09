@@ -249,21 +249,4 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
-  <commands uuid="3a49ab56-8e87-4e7f-9b40-d007cd333770">
-    <name>ВаловаяПрибыльПоДокументу</name>
-    <synonym>
-      <key>ru</key>
-      <value>Валовая прибыль по документу</value>
-    </synonym>
-    <comment></comment>
-    <group>CommandGroup.Отчеты</group>
-    <commandParameterType>
-      <types>DocumentRef.РеализацияТоваровИУслуг</types>
-    </commandParameterType>
-    <representation>PictureAndText</representation>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.Report</picture>
-    </picture>
-    <shortcut></shortcut>
-  </commands>
 </mdclass:Document>

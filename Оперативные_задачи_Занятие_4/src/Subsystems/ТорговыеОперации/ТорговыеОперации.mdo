@@ -30,7 +30,6 @@
   <content>DocumentJournal.Касса</content>
   <content>DataProcessor.КонсольЗапросов</content>
   <content>Report.Продажи</content>
-  <content>Report.ВаловаяПрибыльДокумента</content>
   <content>AccumulationRegister.ОстаткиТоваров</content>
   <content>AccumulationRegister.ТоварыВРезерве</content>
   <content>Report.ВедомостьПоТоварам</content>
@@ -39,4 +38,5 @@
   <content>DataProcessor.РасчетСебестоимости</content>
   <content>AccumulationRegister.ЗаказыПоставщикам</content>
   <content>Document.ЗаказПоставщику</content>
+  <content>Report.ЗакупкиПоОтветственным</content>
 </mdclass:Subsystem>

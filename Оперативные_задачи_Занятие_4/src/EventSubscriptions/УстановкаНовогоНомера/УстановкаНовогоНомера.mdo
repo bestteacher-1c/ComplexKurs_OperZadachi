@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Установка нового номера</value>
   </synonym>
+  <comment></comment>
   <source>
     <types>DocumentObject.ПоступлениеТоваровИУслуг</types>
     <types>DocumentObject.РеализацияТоваровИУслуг</types>

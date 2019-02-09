@@ -1133,15 +1133,6 @@
         </userVisible>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>AccumulationRegister.СебестоимостьТоваров.StandardCommand.OpenByRecorder</command>
-        <commandParameter xsi:type="form:DataPath">
-          <segments>Объект.Ref</segments>
-        </commandParameter>
-        <group>FormNavigationPanelGoTo</group>
-        <index>0</index>
-        <userVisible/>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
         <command>AccumulationRegister.СвободныеОстатки.StandardCommand.OpenByRecorder</command>
         <commandParameter xsi:type="form:DataPath">
           <segments>Объект.Ref</segments>
@@ -1159,6 +1150,15 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+      </cmiFragmentRecord>
+      <cmiFragmentRecord>
+        <command>1:187a3615-aea1-4fc6-beac-163b6a45dab3</command>
+        <commandParameter xsi:type="form:DataPath">
+          <segments>Объект.Ref</segments>
+        </commandParameter>
+        <group>FormNavigationPanelGoTo</group>
+        <index>0</index>
+        <userVisible/>
       </cmiFragmentRecord>
     </navigationPanel>
     <commandBar/>

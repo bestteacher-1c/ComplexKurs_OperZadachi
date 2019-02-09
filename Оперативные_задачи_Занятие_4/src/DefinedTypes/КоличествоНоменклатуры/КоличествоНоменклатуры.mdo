@@ -8,6 +8,7 @@
     <key>ru</key>
     <value>Количество номенклатуры</value>
   </synonym>
+  <comment></comment>
   <type>
     <types>Number</types>
     <numberQualifiers>
