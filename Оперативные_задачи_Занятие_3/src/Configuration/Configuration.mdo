@@ -37,7 +37,7 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.8</compatibilityMode>
+  <compatibilityMode>8.3.10</compatibilityMode>
   <languages uuid="1c4e2401-555b-46e4-a5ed-92d24a3b8684">
     <name>Русский</name>
     <synonym>
@@ -47,6 +47,7 @@
     <comment></comment>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.ПланированиеУслуг</subsystems>
   <subsystems>Subsystem.ТорговыеОперации</subsystems>
   <commonPictures>CommonPicture.Продажи</commonPictures>
   <commonPictures>CommonPicture.ОказаниеУслуг</commonPictures>
@@ -62,7 +63,6 @@
   <commandGroups>CommandGroup.Отчеты</commandGroups>
   <constants>Constant.ПервыйЗапуск</constants>
   <constants>Constant.МетодСписания</constants>
-  <commonForms>CommonForm.ИнтерфейсНачальнойСтраницы_</commonForms>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Склады</catalogs>
@@ -72,22 +72,25 @@
   <documents>Document.РеализацияТоваровИУслуг</documents>
   <documents>Document.ПолучениеДенег</documents>
   <documents>Document.ВыплатаДенег</documents>
+  <documents>Document.ПланированиеОказанияУслуг</documents>
+  <documents>Document.ОказаниеУслугСервисМенеджером</documents>
   <documentNumerators>DocumentNumerator.Денежный</documentNumerators>
   <documentJournals>DocumentJournal.Товарный</documentJournals>
   <documentJournals>DocumentJournal.Касса</documentJournals>
+  <documentJournals>DocumentJournal.ПланированиеУслуг</documentJournals>
   <enums>Enum.МетодыСписанияСебестоимости</enums>
   <reports>Report.Продажи</reports>
-  <reports>Report.ВаловаяПрибыльДокумента</reports>
   <reports>Report.ВзаиморасчетыСКонтрагентами</reports>
   <reports>Report.ВедомостьПоТоварам</reports>
+  <reports>Report.ЗакупкиПоОтветственным</reports>
   <dataProcessors>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
+  <informationRegisters>InformationRegister.ПланированиеОказаниеУслуг</informationRegisters>
   <informationRegisters>InformationRegister.НашиЦены</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Касса</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.СебестоимостьТоваров</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.СебестоимостьТоваровПоПартиям</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ТоварыВРезерве</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.СвободныеОстатки</accumulationRegisters>
 </mdclass:Configuration>

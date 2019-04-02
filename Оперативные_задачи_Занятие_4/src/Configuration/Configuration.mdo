@@ -37,7 +37,7 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.8</compatibilityMode>
+  <compatibilityMode>8.3.10</compatibilityMode>
   <languages uuid="1c4e2401-555b-46e4-a5ed-92d24a3b8684">
     <name>Русский</name>
     <synonym>
@@ -73,18 +73,18 @@
   <documents>Document.РеализацияТоваровИУслуг</documents>
   <documents>Document.ПолучениеДенег</documents>
   <documents>Document.ВыплатаДенег</documents>
-  <documents>Document.ЗаказПоставщику</documents>
   <documents>Document.ПланированиеОказанияУслуг</documents>
   <documents>Document.ОказаниеУслугСервисМенеджером</documents>
+  <documents>Document.ЗаказПоставщику</documents>
   <documentNumerators>DocumentNumerator.Денежный</documentNumerators>
   <documentJournals>DocumentJournal.Товарный</documentJournals>
   <documentJournals>DocumentJournal.Касса</documentJournals>
   <documentJournals>DocumentJournal.ПланированиеУслуг</documentJournals>
   <enums>Enum.МетодыСписанияСебестоимости</enums>
   <reports>Report.Продажи</reports>
-  <reports>Report.ВаловаяПрибыльДокумента</reports>
   <reports>Report.ВедомостьПоТоварам</reports>
   <reports>Report.ВзаиморасчетыСКонтрагентами</reports>
+  <reports>Report.ЗакупкиПоОтветственным</reports>
   <dataProcessors>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.РасчетСебестоимости</dataProcessors>
@@ -94,9 +94,9 @@
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Касса</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.СебестоимостьТоваров</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.ТоварыВРезерве</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.СебестоимостьТоваровПоПартиям</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗаказыПоставщикам</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ТоварыВРезерве</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.СвободныеОстатки</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.СебестоимостьТоваров</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.СебестоимостьТоваровПоПартиям</accumulationRegisters>
 </mdclass:Configuration>

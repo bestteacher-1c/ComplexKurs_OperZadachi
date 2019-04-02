@@ -190,7 +190,6 @@
     <orderFragments>
       <group>ActionsPanelReports</group>
       <commands>Report.Продажи.StandardCommand.Open</commands>
-      <commands>Report.ВаловаяПрибыльДокумента.StandardCommand.Open</commands>
       <commands>Report.ВедомостьПоТоварам.StandardCommand.Open</commands>
       <commands>Report.ВзаиморасчетыСКонтрагентами.StandardCommand.Open</commands>
     </orderFragments>

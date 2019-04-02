@@ -722,6 +722,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
         <name>ТоварыТоварыТоварыТоварыРезерв</name>
@@ -751,6 +752,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -793,7 +795,6 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>ТоварыСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -832,7 +833,6 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>ТоварыСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <horizontalLocation>Left</horizontalLocation>
@@ -872,7 +872,6 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>ТоварыУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -1022,6 +1021,8 @@
       </cmiFragmentRecord>
       <cmiFragmentRecord>
         <command>AccumulationRegister.Взаиморасчеты.StandardCommand.OpenByRecorder</command>
+        <group>FormNavigationPanelGoTo</group>
+        <index>3</index>
         <userVisible>
           <common>true</common>
         </userVisible>
@@ -1036,6 +1037,8 @@
       </cmiFragmentRecord>
       <cmiFragmentRecord>
         <command>AccumulationRegister.Продажи.StandardCommand.OpenByRecorder</command>
+        <group>FormNavigationPanelGoTo</group>
+        <index>2</index>
         <userVisible>
           <common>true</common>
         </userVisible>
@@ -1066,7 +1069,7 @@
       </cmiFragmentRecord>
       <cmiFragmentRecord>
         <command>AccumulationRegister.СебестоимостьТоваровПоПартиям.StandardCommand.OpenByRecorder</command>
-        <group>FormNavigationPanelImportant</group>
+        <group>FormNavigationPanelGoTo</group>
         <index>1</index>
         <userVisible>
           <common>true</common>
@@ -1074,6 +1077,8 @@
       </cmiFragmentRecord>
       <cmiFragmentRecord>
         <command>AccumulationRegister.ТоварыВРезерве.StandardCommand.OpenByRecorder</command>
+        <group>FormNavigationPanelImportant</group>
+        <index>3</index>
         <userVisible>
           <common>true</common>
         </userVisible>
@@ -1081,12 +1086,18 @@
       <cmiFragmentRecord>
         <command>AccumulationRegister.ОстаткиТоваров.StandardCommand.OpenByRecorder</command>
         <group>FormNavigationPanelImportant</group>
-        <index>0</index>
+        <index>2</index>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
         <command>InformationRegister.ПланированиеОказаниеУслуг.StandardCommand.OpenByRecorder</command>
         <group>FormNavigationPanelSeeAlso</group>
         <index>0</index>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
         <command>AccumulationRegister.СвободныеОстатки.StandardCommand.OpenByRecorder</command>
@@ -1094,8 +1105,10 @@
           <segments>Объект.Ref</segments>
         </commandParameter>
         <group>FormNavigationPanelImportant</group>
-        <index>2</index>
-        <userVisible/>
+        <index>0</index>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
       </cmiFragmentRecord>
     </navigationPanel>
     <commandBar/>

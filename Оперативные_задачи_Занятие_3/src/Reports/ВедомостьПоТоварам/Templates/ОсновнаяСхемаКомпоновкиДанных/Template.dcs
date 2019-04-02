@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<dataSource>
 		<name>ИсточникДанных1</name>
@@ -44,30 +44,11 @@
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>СебестоимостьКонечныйОстаток</dataPath>
-			<field>СебестоимостьКонечныйОстаток</field>
+			<dataPath>Склад</dataPath>
+			<field>Склад</field>
 			<role>
-				<dcscom:balance>true</dcscom:balance>
-				<dcscom:balanceGroupName>Себестоимость</dcscom:balanceGroupName>
-				<dcscom:balanceType>ClosingBalance</dcscom:balanceType>
+				<dcscom:dimension>true</dcscom:dimension>
 			</role>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>СебестоимостьНачальныйОстаток</dataPath>
-			<field>СебестоимостьНачальныйОстаток</field>
-			<role>
-				<dcscom:balance>true</dcscom:balance>
-				<dcscom:balanceGroupName>Себестоимость</dcscom:balanceGroupName>
-				<dcscom:balanceType>OpeningBalance</dcscom:balanceType>
-			</role>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>СебестоимостьПриход</dataPath>
-			<field>СебестоимостьПриход</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>СебестоимостьРасход</dataPath>
-			<field>СебестоимостьРасход</field>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
@@ -77,10 +58,7 @@
 	ОстаткиТоваровОстаткиИОбороты.КоличествоОборот,
 	ОстаткиТоваровОстаткиИОбороты.КоличествоПриход,
 	ОстаткиТоваровОстаткиИОбороты.КоличествоРасход,
-	ОстаткиТоваровОстаткиИОбороты.СебестоимостьНачальныйОстаток,
-	ОстаткиТоваровОстаткиИОбороты.СебестоимостьКонечныйОстаток,
-	ОстаткиТоваровОстаткиИОбороты.СебестоимостьПриход,
-	ОстаткиТоваровОстаткиИОбороты.СебестоимостьРасход
+	ОстаткиТоваровОстаткиИОбороты.Склад
 ИЗ
 	РегистрНакопления.ОстаткиТоваров.ОстаткиИОбороты КАК ОстаткиТоваровОстаткиИОбороты</query>
 	</dataSet>
@@ -104,22 +82,6 @@
 		<dataPath>КоличествоРасход</dataPath>
 		<expression>Сумма(КоличествоРасход)</expression>
 	</totalField>
-	<totalField>
-		<dataPath>СебестоимостьКонечныйОстаток</dataPath>
-		<expression>Сумма(СебестоимостьКонечныйОстаток)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>СебестоимостьНачальныйОстаток</dataPath>
-		<expression>Сумма(СебестоимостьНачальныйОстаток)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>СебестоимостьПриход</dataPath>
-		<expression>Сумма(СебестоимостьПриход)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>СебестоимостьРасход</dataPath>
-		<expression>Сумма(СебестоимостьРасход)</expression>
-	</totalField>
 	<parameter>
 		<name>НачалоПериода</name>
 		<title xsi:type="v8:LocalStringType">
@@ -137,6 +99,10 @@
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 		<useRestriction>true</useRestriction>
 		<expression>&amp;Период.ДатаНачала</expression>
+		<valueListAllowed>false</valueListAllowed>
+		<availableAsField>true</availableAsField>
+		<denyIncompleteValues>false</denyIncompleteValues>
+		<use>Auto</use>
 	</parameter>
 	<parameter>
 		<name>КонецПериода</name>
@@ -155,6 +121,10 @@
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 		<useRestriction>true</useRestriction>
 		<expression>&amp;Период.ДатаОкончания</expression>
+		<valueListAllowed>false</valueListAllowed>
+		<availableAsField>true</availableAsField>
+		<denyIncompleteValues>false</denyIncompleteValues>
+		<use>Auto</use>
 	</parameter>
 	<parameter>
 		<name>Период</name>
@@ -170,17 +140,20 @@
 		<value xsi:type="v8:StandardPeriod">
 			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
 			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
-			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
-		</value>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate></value>
 		<useRestriction>false</useRestriction>
+		<valueListAllowed>false</valueListAllowed>
+		<availableAsField>true</availableAsField>
+		<denyIncompleteValues>false</denyIncompleteValues>
+		<use>Auto</use>
 	</parameter>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
 		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
-		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+		<dcsset:settings xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
 				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
-					<dcsset:lwsTitle>
+					<dcsset:lwsTitle xsi:type="v8:LocalStringType">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Начальный остаток</v8:content>
@@ -188,26 +161,17 @@
 					</dcsset:lwsTitle>
 					<dcsset:item xsi:type="dcsset:SelectedItemField">
 						<dcsset:field>КоличествоНачальныйОстаток</dcsset:field>
-						<dcsset:lwsTitle>
+						<dcsset:lwsTitle xsi:type="v8:LocalStringType">
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Количество</v8:content>
 							</v8:item>
 						</dcsset:lwsTitle>
 					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>СебестоимостьНачальныйОстаток</dcsset:field>
-						<dcsset:lwsTitle>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Сумма</v8:content>
-							</v8:item>
-						</dcsset:lwsTitle>
-					</dcsset:item>
 					<dcsset:placement>Vertically</dcsset:placement>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
-					<dcsset:lwsTitle>
+					<dcsset:lwsTitle xsi:type="v8:LocalStringType">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Приход</v8:content>
@@ -215,26 +179,17 @@
 					</dcsset:lwsTitle>
 					<dcsset:item xsi:type="dcsset:SelectedItemField">
 						<dcsset:field>КоличествоПриход</dcsset:field>
-						<dcsset:lwsTitle>
+						<dcsset:lwsTitle xsi:type="v8:LocalStringType">
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Количество</v8:content>
 							</v8:item>
 						</dcsset:lwsTitle>
 					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>СебестоимостьПриход</dcsset:field>
-						<dcsset:lwsTitle>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Сумма</v8:content>
-							</v8:item>
-						</dcsset:lwsTitle>
-					</dcsset:item>
 					<dcsset:placement>Vertically</dcsset:placement>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
-					<dcsset:lwsTitle>
+					<dcsset:lwsTitle xsi:type="v8:LocalStringType">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Расход</v8:content>
@@ -242,26 +197,17 @@
 					</dcsset:lwsTitle>
 					<dcsset:item xsi:type="dcsset:SelectedItemField">
 						<dcsset:field>КоличествоРасход</dcsset:field>
-						<dcsset:lwsTitle>
+						<dcsset:lwsTitle xsi:type="v8:LocalStringType">
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Количество</v8:content>
 							</v8:item>
 						</dcsset:lwsTitle>
 					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>СебестоимостьРасход</dcsset:field>
-						<dcsset:lwsTitle>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Сумма</v8:content>
-							</v8:item>
-						</dcsset:lwsTitle>
-					</dcsset:item>
 					<dcsset:placement>Vertically</dcsset:placement>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
-					<dcsset:lwsTitle>
+					<dcsset:lwsTitle xsi:type="v8:LocalStringType">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Конечный остаток</v8:content>
@@ -269,19 +215,10 @@
 					</dcsset:lwsTitle>
 					<dcsset:item xsi:type="dcsset:SelectedItemField">
 						<dcsset:field>КоличествоКонечныйОстаток</dcsset:field>
-						<dcsset:lwsTitle>
+						<dcsset:lwsTitle xsi:type="v8:LocalStringType">
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Количество</v8:content>
-							</v8:item>
-						</dcsset:lwsTitle>
-					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>СебестоимостьКонечныйОстаток</dcsset:field>
-						<dcsset:lwsTitle>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Сумма</v8:content>
 							</v8:item>
 						</dcsset:lwsTitle>
 					</dcsset:item>
@@ -316,8 +253,7 @@
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Период</dcscor:parameter>
 					<dcscor:value xsi:type="v8:StandardPeriod">
-						<v8:variant xsi:type="v8:StandardPeriodVariant">LastMonth</v8:variant>
-					</dcscor:value>
+						<v8:variant xsi:type="v8:StandardPeriodVariant">LastMonth</v8:variant></dcscor:value>
 					<dcsset:userSettingID>6abbd369-da6a-4f4e-93af-0bc3d0e961a2</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
@@ -346,10 +282,12 @@
 					</dcsset:item>
 				</dcsset:groupItems>
 				<dcsset:order>
-					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto">
+					</dcsset:item>
 				</dcsset:order>
 				<dcsset:selection>
-					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto">
+					</dcsset:item>
 				</dcsset:selection>
 			</dcsset:item>
 			<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>

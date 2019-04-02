@@ -40,4 +40,5 @@
   <content>AccumulationRegister.ЗаказыПоставщикам</content>
   <content>Document.ЗаказПоставщику</content>
   <content>Sequence.Товарная</content>
+  <content>Report.ЗакупкиПоОтветственным</content>
 </mdclass:Subsystem>

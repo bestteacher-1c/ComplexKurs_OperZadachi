@@ -323,8 +323,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Ответственный</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.Ответственный</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ОтветственныйРасширеннаяПодсказка</name>
@@ -727,7 +729,6 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>ТоварыСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -766,7 +767,6 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>ТоварыСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <horizontalLocation>Left</horizontalLocation>
@@ -806,7 +806,6 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>ТоварыУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -913,8 +912,8 @@
       </cmiFragmentRecord>
       <cmiFragmentRecord>
         <command>AccumulationRegister.Взаиморасчеты.StandardCommand.OpenByRecorder</command>
-        <group>FormNavigationPanelSeeAlso</group>
-        <index>0</index>
+        <group>FormNavigationPanelGoTo</group>
+        <index>2</index>
         <userVisible>
           <common>true</common>
         </userVisible>
@@ -951,8 +950,8 @@
       </cmiFragmentRecord>
       <cmiFragmentRecord>
         <command>AccumulationRegister.ЗаказыПоставщикам.StandardCommand.OpenByRecorder</command>
-        <group>FormNavigationPanelGoTo</group>
-        <index>2</index>
+        <group>FormNavigationPanelSeeAlso</group>
+        <index>1</index>
         <userVisible>
           <common>true</common>
         </userVisible>

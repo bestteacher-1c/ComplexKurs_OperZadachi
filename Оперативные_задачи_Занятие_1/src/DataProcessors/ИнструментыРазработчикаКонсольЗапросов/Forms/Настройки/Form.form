@@ -26,7 +26,7 @@
       </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>
-        <name>ИспользоватьАвтосохранениеExtendedTooltip</name>
+        <name>ИспользоватьАвтосохранениеРасширеннаяПодсказка</name>
         <id>17</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -76,7 +76,7 @@
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
-        <name>ПериодАвтосохраненияExtendedTooltip</name>
+        <name>ПериодАвтосохраненияРасширеннаяПодсказка</name>
         <id>18</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -130,7 +130,7 @@
       <value>Автосохранение</value>
     </toolTip>
     <extendedTooltip>
-      <name>АвтосохранениеExtendedTooltip</name>
+      <name>АвтосохранениеРасширеннаяПодсказка</name>
       <id>16</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -171,7 +171,7 @@
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
-      <name>ВыводитьВРезультатахЗапросаЗначенияСсылокExtendedTooltip</name>
+      <name>ВыводитьВРезультатахЗапросаЗначенияСсылокРасширеннаяПодсказка</name>
       <id>19</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -217,7 +217,7 @@
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
-      <name>ЧередованиеЦветовВРезультатеЗапросаExtendedTooltip</name>
+      <name>ЧередованиеЦветовВРезультатеЗапросаРасширеннаяПодсказка</name>
       <id>20</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -262,7 +262,7 @@
       </paths>
     </dataPath>
     <extendedTooltip>
-      <name>ТипОбходаExtendedTooltip</name>
+      <name>ТипОбходаРасширеннаяПодсказка</name>
       <id>21</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -316,7 +316,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ЗаписатьExtendedTooltip</name>
+        <name>ЗаписатьРасширеннаяПодсказка</name>
         <id>15</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -390,7 +390,7 @@
         <name>Записать</name>
       </handler>
     </action>
-    <currentRowUse>Auto</currentRowUse>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

@@ -90,9 +90,13 @@
       <key>ru</key>
       <value>Ответственный за закупки</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>CatalogRef.Менеджеры</types>
     </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
   <dimensions uuid="773ad7b6-1657-4ae6-beda-c2ab440cf168">

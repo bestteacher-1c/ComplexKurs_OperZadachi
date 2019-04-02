@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09ecb843-bb15-4b71-ba79-dddb4155ca81">
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd1f2667-8742-40e5-8eb8-10eca5dc19e7">
   <name>ТорговыеОперации</name>
   <synonym>
     <key>ru</key>
@@ -11,7 +11,6 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Продажи</picture>
   </picture>
-  <content>CommonForm.ИнтерфейсНачальнойСтраницы_</content>
   <content>Catalog.Номенклатура</content>
   <content>Catalog.Контрагенты</content>
   <content>Catalog.Склады</content>
@@ -21,7 +20,6 @@
   <content>Document.ПолучениеДенег</content>
   <content>Document.ВыплатаДенег</content>
   <content>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</content>
-  <content>AccumulationRegister.ОстаткиТоваров</content>
   <content>AccumulationRegister.Продажи</content>
   <content>AccumulationRegister.Касса</content>
   <content>AccumulationRegister.Взаиморасчеты</content>
@@ -31,10 +29,8 @@
   <content>DocumentJournal.Касса</content>
   <content>DataProcessor.КонсольЗапросов</content>
   <content>Report.Продажи</content>
-  <content>Report.ВаловаяПрибыльДокумента</content>
-  <content>199c9b9a-09a6-4e1a-a31c-e4fe9cb58884</content>
-  <content>AccumulationRegister.ТоварыВРезерве</content>
-  <content>Report.ВедомостьПоТоварам</content>
   <content>Report.ВзаиморасчетыСКонтрагентами</content>
-  <content>AccumulationRegister.СебестоимостьТоваровПоПартиям</content>
+  <content>Report.ВедомостьПоТоварам</content>
+  <content>AccumulationRegister.СвободныеОстатки</content>
+  <content>Report.ЗакупкиПоОтветственным</content>
 </mdclass:Subsystem>

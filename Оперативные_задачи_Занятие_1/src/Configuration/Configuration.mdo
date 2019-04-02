@@ -35,9 +35,10 @@
   </vendorInformationAddress>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
   <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.8</compatibilityMode>
+  <compatibilityMode>8.3.10</compatibilityMode>
   <languages uuid="1c4e2401-555b-46e4-a5ed-92d24a3b8684">
     <name>Русский</name>
     <synonym>
@@ -48,7 +49,9 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.ТорговыеОперации</subsystems>
+  <subsystems>Subsystem.ПланированиеУслуг</subsystems>
   <commonPictures>CommonPicture.Продажи</commonPictures>
+  <commonPictures>CommonPicture.ОказаниеУслуг</commonPictures>
   <interfaces>Interface.ОсновнойИнтерфейс</interfaces>
   <commonModules>CommonModule.Сервис</commonModules>
   <commonModules>CommonModule.Серверный</commonModules>
@@ -70,7 +73,10 @@
   <documents>Document.РеализацияТоваровИУслуг</documents>
   <documents>Document.ПолучениеДенег</documents>
   <documents>Document.ВыплатаДенег</documents>
+  <documents>Document.ПланированиеОказанияУслуг</documents>
+  <documents>Document.ОказаниеУслугСервисМенеджером</documents>
   <documentJournals>DocumentJournal.Товарный</documentJournals>
+  <documentJournals>DocumentJournal.ПланированиеУслуг</documentJournals>
   <enums>Enum.МетодыСписанияСебестоимости</enums>
   <reports>Report.ОстаткиТоваровБезМакета</reports>
   <reports>Report.ОстаткиТоваров_ТабДок_НаОсновеМакета</reports>

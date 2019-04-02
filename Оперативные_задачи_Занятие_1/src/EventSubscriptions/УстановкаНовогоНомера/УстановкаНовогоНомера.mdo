@@ -11,6 +11,8 @@
     <types>DocumentObject.ПолучениеДенег</types>
     <types>DocumentObject.ПоступлениеТоваровИУслуг</types>
     <types>DocumentObject.РеализацияТоваровИУслуг</types>
+    <types>DocumentObject.ОказаниеУслугСервисМенеджером</types>
+    <types>DocumentObject.ПланированиеОказанияУслуг</types>
   </source>
   <event>OnSetNewNumber</event>
   <handler>CommonModule.Серверный.УстановкаНовогоНомераПриУстановкеНовогоНомера</handler>
