@@ -19,7 +19,7 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
-      <name>РезультатExtendedTooltip</name>
+      <name>РезультатРасширеннаяПодсказка</name>
       <id>5</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -77,7 +77,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаЗакрытьExtendedTooltip</name>
+        <name>ФормаЗакрытьРасширеннаяПодсказка</name>
         <id>4</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -122,7 +122,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DataProcessorObject.ИнструментыРазработчикаКонсольЗапросов1</types>
+      <types>DataProcessorObject.ИнструментыРазработчикаКонсольЗапросов</types>
     </valueType>
     <view>
       <common>true</common>

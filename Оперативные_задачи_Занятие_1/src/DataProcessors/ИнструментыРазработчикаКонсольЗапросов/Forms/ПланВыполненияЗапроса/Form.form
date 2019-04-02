@@ -1771,7 +1771,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DataProcessorObject.ИнструментыРазработчикаКонсольЗапросов1</types>
+      <types>DataProcessorObject.ИнструментыРазработчикаКонсольЗапросов</types>
     </valueType>
     <view>
       <common>true</common>

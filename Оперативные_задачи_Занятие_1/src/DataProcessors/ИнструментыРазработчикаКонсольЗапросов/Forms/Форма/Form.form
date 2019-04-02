@@ -228,7 +228,7 @@
           <name>ТекстЗапросаПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ТекстЗапросаExtendedTooltip</name>
+          <name>ТекстЗапросаРасширеннаяПодсказка</name>
           <id>80</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -246,7 +246,7 @@
           <name>ТекстЗапросаКонтекстноеМеню</name>
           <id>20</id>
           <items xsi:type="form:FormGroup">
-            <name>ТекстЗапросаКонтекстноеМенюГруппаСервис</name>
+            <name>ТекстЗапросаТекстЗапросаТекстЗапросаТекстЗапросаТекстЗапросаКонтекстноеМенюГруппаСервис</name>
             <id>45</id>
             <items xsi:type="form:Button">
               <name>ТекстЗапросаКонтекстноеМенюОткрытьКонструкторЗапроса</name>
@@ -261,7 +261,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>ТекстЗапросаКонтекстноеМенюОткрытьКонструкторЗапросаExtendedTooltip</name>
+                <name>ТекстЗапросаКонтекстноеМенюОткрытьКонструкторЗапросаРасширеннаяПодсказка</name>
                 <id>78</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -293,7 +293,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>ТекстЗапросаКонтекстноеМенюСоздатьТекстЗапросаДляКонфигуратораExtendedTooltip</name>
+                <name>ТекстЗапросаКонтекстноеМенюСоздатьТекстЗапросаДляКонфигуратораРасширеннаяПодсказка</name>
                 <id>79</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -327,7 +327,7 @@
               <value>Текст запроса контекстное меню группа сервис</value>
             </toolTip>
             <extendedTooltip>
-              <name>ТекстЗапросаКонтекстноеМенюГруппаСервисРасширеннаяПодсказка</name>
+              <name>ТекстЗапросаТекстЗапросаТекстЗапросаТекстЗапросаТекстЗапросаКонтекстноеМенюГруппаСервисРасширеннаяПодсказка</name>
               <id>77</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -344,7 +344,7 @@
             <extInfo xsi:type="form:ButtonGroupExtInfo"/>
           </items>
           <items xsi:type="form:FormGroup">
-            <name>ТекстЗапросаКонтекстноеМенюГруппаОформление</name>
+            <name>ТекстЗапросаТекстЗапросаТекстЗапросаТекстЗапросаТекстЗапросаКонтекстноеМенюГруппаОформление</name>
             <id>170</id>
             <items xsi:type="form:Button">
               <name>ТекстЗапросаКонтекстноеМенюРаскомментировать</name>
@@ -418,7 +418,7 @@
               <value>Текст запроса контекстное меню группа оформление</value>
             </toolTip>
             <extendedTooltip>
-              <name>ТекстЗапросаКонтекстноеМенюГруппаОформлениеРасширеннаяПодсказка</name>
+              <name>ТекстЗапросаТекстЗапросаТекстЗапросаТекстЗапросаТекстЗапросаКонтекстноеМенюГруппаОформлениеРасширеннаяПодсказка</name>
               <id>171</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -516,7 +516,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ПараметрыСчитатьПараметрыИзТекстаЗапросаExtendedTooltip</name>
+            <name>ПараметрыСчитатьПараметрыИзТекстаЗапросаРасширеннаяПодсказка</name>
             <id>62</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -550,7 +550,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ФормаДобавитьExtendedTooltip</name>
+            <name>ФормаДобавитьРасширеннаяПодсказка</name>
             <id>63</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -629,7 +629,7 @@
             </paths>
           </dataPath>
           <extendedTooltip>
-            <name>ИмяExtendedTooltip</name>
+            <name>ИмяРасширеннаяПодсказка</name>
             <id>71</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -681,7 +681,7 @@
             </paths>
           </dataPath>
           <extendedTooltip>
-            <name>ТипВФормеExtendedTooltip</name>
+            <name>ТипВФормеРасширеннаяПодсказка</name>
             <id>72</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -741,7 +741,7 @@
             <name>ЗначениеВФормеПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ЗначениеВФормеExtendedTooltip</name>
+            <name>ЗначениеВФормеРасширеннаяПодсказка</name>
             <id>73</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -796,7 +796,7 @@
             </paths>
           </dataPath>
           <extendedTooltip>
-            <name>ТипExtendedTooltip</name>
+            <name>ТипРасширеннаяПодсказка</name>
             <id>74</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -848,7 +848,7 @@
             </paths>
           </dataPath>
           <extendedTooltip>
-            <name>ЗначениеExtendedTooltip</name>
+            <name>ЗначениеРасширеннаяПодсказка</name>
             <id>75</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -899,7 +899,7 @@
             </paths>
           </dataPath>
           <extendedTooltip>
-            <name>IDЗапросаExtendedTooltip</name>
+            <name>IDЗапросаРасширеннаяПодсказка</name>
             <id>76</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1075,7 +1075,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>ПараметрыExtendedTooltip</name>
+          <name>ПараметрыРасширеннаяПодсказка</name>
           <id>70</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1261,7 +1261,7 @@
           <name>РезультатЗапросаПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>РезультатЗапросаExtendedTooltip</name>
+          <name>РезультатЗапросаРасширеннаяПодсказка</name>
           <id>90</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1279,7 +1279,7 @@
           <name>РезультатЗапросаКонтекстноеМеню</name>
           <id>23</id>
           <items xsi:type="form:FormGroup">
-            <name>РезультатЗапросаКонтекстноеМенюГруппа1</name>
+            <name>РезультатЗапросаРезультатЗапросаРезультатЗапросаРезультатЗапросаРезультатЗапросаКонтекстноеМенюГруппа1</name>
             <id>47</id>
             <items xsi:type="form:Button">
               <name>РезультатЗапросаКонтекстноеМенюВыделитьЯчейки</name>
@@ -1290,7 +1290,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>РезультатЗапросаКонтекстноеМенюВыделитьЯчейкиExtendedTooltip</name>
+                <name>РезультатЗапросаКонтекстноеМенюВыделитьЯчейкиРасширеннаяПодсказка</name>
                 <id>82</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1319,7 +1319,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>РезультатЗапросаПечатьExtendedTooltip</name>
+                <name>РезультатЗапросаПечатьРасширеннаяПодсказка</name>
                 <id>83</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1352,7 +1352,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>РезультатЗапросаКонтекстноеМенюСохранитьExtendedTooltip</name>
+                <name>РезультатЗапросаКонтекстноеМенюСохранитьРасширеннаяПодсказка</name>
                 <id>84</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1378,7 +1378,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>РезультатЗапросаКонтекстноеМенюГруппа1ExtendedTooltip</name>
+              <name>РезультатЗапросаРезультатЗапросаРезультатЗапросаРезультатЗапросаРезультатЗапросаКонтекстноеМенюГруппа1РасширеннаяПодсказка</name>
               <id>81</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1395,7 +1395,7 @@
             <extInfo xsi:type="form:ButtonGroupExtInfo"/>
           </items>
           <items xsi:type="form:FormGroup">
-            <name>РезультатЗапросаКонтекстноеМенюГруппа2</name>
+            <name>РезультатЗапросаРезультатЗапросаРезультатЗапросаРезультатЗапросаРезультатЗапросаКонтекстноеМенюГруппа2</name>
             <id>50</id>
             <items xsi:type="form:Button">
               <name>РезультатЗапросаКонтекстноеМенюОткрытьВОтдельномОкнеТабличныйДокумент</name>
@@ -1406,7 +1406,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>РезультатЗапросаКонтекстноеМенюОткрытьВОтдельномОкнеТабличныйДокументExtendedTooltip</name>
+                <name>РезультатЗапросаКонтекстноеМенюОткрытьВОтдельномОкнеТабличныйДокументРасширеннаяПодсказка</name>
                 <id>86</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1432,7 +1432,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>РезультатЗапросаКонтекстноеМенюГруппа2ExtendedTooltip</name>
+              <name>РезультатЗапросаРезультатЗапросаРезультатЗапросаРезультатЗапросаРезультатЗапросаКонтекстноеМенюГруппа2РасширеннаяПодсказка</name>
               <id>85</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1449,7 +1449,7 @@
             <extInfo xsi:type="form:ButtonGroupExtInfo"/>
           </items>
           <items xsi:type="form:FormGroup">
-            <name>РезультатЗапросаКонтекстноеМенюГруппа3</name>
+            <name>РезультатЗапросаРезультатЗапросаРезультатЗапросаРезультатЗапросаРезультатЗапросаКонтекстноеМенюГруппа3</name>
             <id>52</id>
             <items xsi:type="form:Button">
               <name>РезультатЗапросаКонтекстноеМенюОткрытьОбъектИзРезультата</name>
@@ -1460,7 +1460,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>РезультатЗапросаКонтекстноеМенюОткрытьОбъектИзРезультатаExtendedTooltip</name>
+                <name>РезультатЗапросаКонтекстноеМенюОткрытьОбъектИзРезультатаРасширеннаяПодсказка</name>
                 <id>88</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1489,7 +1489,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>РезультатЗапросаКонтекстноеМенюОткрытьСписокИзРезультатаExtendedTooltip</name>
+                <name>РезультатЗапросаКонтекстноеМенюОткрытьСписокИзРезультатаРасширеннаяПодсказка</name>
                 <id>89</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1515,7 +1515,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>РезультатЗапросаКонтекстноеМенюГруппа3ExtendedTooltip</name>
+              <name>РезультатЗапросаРезультатЗапросаРезультатЗапросаРезультатЗапросаРезультатЗапросаКонтекстноеМенюГруппа3РасширеннаяПодсказка</name>
               <id>87</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1923,7 +1923,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ПараметрыСохранитьЗапросыВФайлExtendedTooltip</name>
+          <name>ПараметрыСохранитьЗапросыВФайлРасширеннаяПодсказка</name>
           <id>68</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1958,7 +1958,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ПараметрыСохранитьЗапросыВДругойФайлExtendedTooltip</name>
+          <name>ПараметрыСохранитьЗапросыВДругойФайлРасширеннаяПодсказка</name>
           <id>69</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2053,7 +2053,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаВыполнитьЗапросExtendedTooltip</name>
+          <name>ФормаВыполнитьЗапросРасширеннаяПодсказка</name>
           <id>60</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2087,7 +2087,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаВыполнитьЗапросСВременнымиТаблицамиExtendedTooltip</name>
+          <name>ФормаВыполнитьЗапросСВременнымиТаблицамиРасширеннаяПодсказка</name>
           <id>61</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2155,7 +2155,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаВыбратьЗапросExtendedTooltip</name>
+          <name>ФормаВыбратьЗапросРасширеннаяПодсказка</name>
           <id>65</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2194,7 +2194,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ПараметрыСкопироватьЗапросExtendedTooltip</name>
+            <name>ПараметрыСкопироватьЗапросРасширеннаяПодсказка</name>
             <id>66</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2231,7 +2231,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ПараметрыВыбратьЗапросыИзФайлаExtendedTooltip</name>
+            <name>ПараметрыВыбратьЗапросыИзФайлаРасширеннаяПодсказка</name>
             <id>67</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2311,7 +2311,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаНастроитьДополнительноExtendedTooltip</name>
+        <name>ФормаНастроитьДополнительноРасширеннаяПодсказка</name>
         <id>58</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2350,7 +2350,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаВыполнитьВыборРезультатаЗапросаExtendedTooltip</name>
+        <name>ФормаВыполнитьВыборРезультатаЗапросаРасширеннаяПодсказка</name>
         <id>59</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2415,7 +2415,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DataProcessorObject.ИнструментыРазработчикаКонсольЗапросов1</types>
+      <types>DataProcessorObject.ИнструментыРазработчикаКонсольЗапросов</types>
     </valueType>
     <view>
       <common>true</common>

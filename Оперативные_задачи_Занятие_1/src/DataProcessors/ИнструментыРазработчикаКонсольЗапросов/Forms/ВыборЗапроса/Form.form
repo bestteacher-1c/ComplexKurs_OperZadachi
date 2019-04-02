@@ -85,7 +85,7 @@
         <name>ЗапросыИмяПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ЗапросыИмяExtendedTooltip</name>
+        <name>ЗапросыИмяРасширеннаяПодсказка</name>
         <id>35</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -185,7 +185,7 @@
         </paths>
       </dataPath>
       <extendedTooltip>
-        <name>ЗапросыIDExtendedTooltip</name>
+        <name>ЗапросыIDРасширеннаяПодсказка</name>
         <id>36</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -240,7 +240,7 @@
           </paths>
         </dataPath>
         <extendedTooltip>
-          <name>ЗапросыВремяВыполненияExtendedTooltip</name>
+          <name>ЗапросыВремяВыполненияРасширеннаяПодсказка</name>
           <id>38</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -292,7 +292,7 @@
           </paths>
         </dataPath>
         <extendedTooltip>
-          <name>ЗапросыКоличествоСтрокExtendedTooltip</name>
+          <name>ЗапросыКоличествоСтрокРасширеннаяПодсказка</name>
           <id>39</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -345,7 +345,7 @@
       </toolTip>
       <readOnly>true</readOnly>
       <extendedTooltip>
-        <name>ГруппаЗапросаExtendedTooltip</name>
+        <name>ГруппаЗапросаРасширеннаяПодсказка</name>
         <id>37</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -506,7 +506,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ЗапросыExtendedTooltip</name>
+      <name>ЗапросыРасширеннаяПодсказка</name>
       <id>34</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -524,7 +524,7 @@
       <name>ЗапросыКонтекстноеМеню</name>
       <id>2</id>
       <items xsi:type="form:Button">
-        <name>ЗапросыКонтекстноеМенюСравнитьРезультатыЗапросов</name>
+        <name>ЗапросыЗапросыЗапросыКонтекстноеМенюСравнитьРезультатыЗапросов</name>
         <id>23</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -532,7 +532,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ЗапросыКонтекстноеМенюСравнитьРезультатыЗапросовExtendedTooltip</name>
+          <name>ЗапросыЗапросыЗапросыКонтекстноеМенюСравнитьРезультатыЗапросовРасширеннаяПодсказка</name>
           <id>33</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -605,7 +605,7 @@
         </paths>
       </dataPath>
       <extendedTooltip>
-        <name>ИмяФайлаExtendedTooltip</name>
+        <name>ИмяФайлаРасширеннаяПодсказка</name>
         <id>40</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -652,7 +652,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ЗапросыСохранитьЗапросыВФайлExtendedTooltip</name>
+        <name>ЗапросыСохранитьЗапросыВФайлРасширеннаяПодсказка</name>
         <id>30</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -682,7 +682,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ЗапросыВосстановитьЗапросыИзФайлаExtendedTooltip</name>
+        <name>ЗапросыВосстановитьЗапросыИзФайлаРасширеннаяПодсказка</name>
         <id>28</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -712,7 +712,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ЗапросыСохранитьЗапросыВДругойФайлExtendedTooltip</name>
+        <name>ЗапросыСохранитьЗапросыВДругойФайлРасширеннаяПодсказка</name>
         <id>31</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -742,7 +742,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаДобавитьЗапросыИзФайлаExtendedTooltip</name>
+        <name>ФормаДобавитьЗапросыИзФайлаРасширеннаяПодсказка</name>
         <id>29</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -803,7 +803,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ЗапросыВыбратьЗапросExtendedTooltip</name>
+        <name>ЗапросыВыбратьЗапросРасширеннаяПодсказка</name>
         <id>25</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -982,7 +982,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаГруппа1ExtendedTooltip</name>
+        <name>ФормаГруппа1РасширеннаяПодсказка</name>
         <id>26</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1009,7 +1009,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаГруппа2ExtendedTooltip</name>
+        <name>ФормаГруппа2РасширеннаяПодсказка</name>
         <id>27</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1034,7 +1034,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСравнитьРезультатыЗапросовExtendedTooltip</name>
+        <name>ФормаСравнитьРезультатыЗапросовРасширеннаяПодсказка</name>
         <id>32</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1081,7 +1081,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DataProcessorObject.ИнструментыРазработчикаКонсольЗапросов1</types>
+      <types>DataProcessorObject.ИнструментыРазработчикаКонсольЗапросов</types>
     </valueType>
     <view>
       <common>true</common>

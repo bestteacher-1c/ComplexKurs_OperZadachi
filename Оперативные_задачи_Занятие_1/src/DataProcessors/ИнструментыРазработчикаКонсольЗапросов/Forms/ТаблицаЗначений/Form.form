@@ -30,7 +30,7 @@
         </paths>
       </dataPath>
       <extendedTooltip>
-        <name>НастройкитаблицыЗначенийНаименованиеКолонкиExtendedTooltip</name>
+        <name>НастройкитаблицыЗначенийНаименованиеКолонкиРасширеннаяПодсказка</name>
         <id>33</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -90,7 +90,7 @@
         <name>НастройкитаблицыЗначенийТипКолонкиПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>НастройкитаблицыЗначенийТипКолонкиExtendedTooltip</name>
+        <name>НастройкитаблицыЗначенийТипКолонкиРасширеннаяПодсказка</name>
         <id>34</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -264,7 +264,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>НастройкитаблицыЗначенийExtendedTooltip</name>
+      <name>НастройкитаблицыЗначенийРасширеннаяПодсказка</name>
       <id>32</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -455,7 +455,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ТаблицаЗначенийПараметрExtendedTooltip</name>
+      <name>ТаблицаЗначенийПараметрРасширеннаяПодсказка</name>
       <id>35</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -517,7 +517,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>НастройкитаблицыЗначенийВыгрузитьТаблицуЗначенийExtendedTooltip</name>
+        <name>НастройкитаблицыЗначенийВыгрузитьТаблицуЗначенийРасширеннаяПодсказка</name>
         <id>24</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -554,7 +554,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаДобавитьExtendedTooltip</name>
+          <name>ФормаДобавитьРасширеннаяПодсказка</name>
           <id>26</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -583,7 +583,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаСкопироватьExtendedTooltip</name>
+          <name>ФормаСкопироватьРасширеннаяПодсказка</name>
           <id>27</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -612,7 +612,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаИзменитьExtendedTooltip</name>
+          <name>ФормаИзменитьРасширеннаяПодсказка</name>
           <id>28</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -641,7 +641,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаУдалитьExtendedTooltip</name>
+          <name>ФормаУдалитьРасширеннаяПодсказка</name>
           <id>29</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -670,7 +670,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаСортироватьСписокПоВозрастаниюExtendedTooltip</name>
+          <name>ФормаСортироватьСписокПоВозрастаниюРасширеннаяПодсказка</name>
           <id>30</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -699,7 +699,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаСортироватьСписокПоУбываниюExtendedTooltip</name>
+          <name>ФормаСортироватьСписокПоУбываниюРасширеннаяПодсказка</name>
           <id>31</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -725,7 +725,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаГруппа1ExtendedTooltip</name>
+        <name>ФормаГруппа1РасширеннаяПодсказка</name>
         <id>25</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -766,7 +766,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DataProcessorObject.ИнструментыРазработчикаКонсольЗапросов1</types>
+      <types>DataProcessorObject.ИнструментыРазработчикаКонсольЗапросов</types>
     </valueType>
     <view>
       <common>true</common>

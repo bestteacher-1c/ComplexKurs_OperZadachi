@@ -21,7 +21,7 @@
         </paths>
       </dataPath>
       <extendedTooltip>
-        <name>ТипExtendedTooltip</name>
+        <name>ТипРасширеннаяПодсказка</name>
         <id>13</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -78,7 +78,7 @@
         </paths>
       </dataPath>
       <extendedTooltip>
-        <name>ВидГраницыExtendedTooltip</name>
+        <name>ВидГраницыРасширеннаяПодсказка</name>
         <id>14</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -123,7 +123,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>Группа1ExtendedTooltip</name>
+      <name>Группа1РасширеннаяПодсказка</name>
       <id>12</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -163,7 +163,7 @@
       <name>ЗначениеВФормеПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>ЗначениеВФормеExtendedTooltip</name>
+      <name>ЗначениеВФормеРасширеннаяПодсказка</name>
       <id>15</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -217,7 +217,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаЗаписатьГраницуExtendedTooltip</name>
+        <name>ФормаЗаписатьГраницуРасширеннаяПодсказка</name>
         <id>11</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -268,7 +268,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DataProcessorObject.ИнструментыРазработчикаКонсольЗапросов1</types>
+      <types>DataProcessorObject.ИнструментыРазработчикаКонсольЗапросов</types>
     </valueType>
     <view>
       <common>true</common>

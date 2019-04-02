@@ -3,7 +3,7 @@
   <commandsPlacement>
     <placementFragments>
       <group>ActionsPanelTools</group>
-      <commands>DataProcessor.ИнструментыРазработчикаКонсольЗапросов1.StandardCommand.Open</commands>
+      <commands>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.StandardCommand.Open</commands>
     </placementFragments>
   </commandsPlacement>
 </cmi:CommandInterface>

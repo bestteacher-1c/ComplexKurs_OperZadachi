@@ -4,14 +4,14 @@
     <objectType typeId="e3595509-037b-446f-8a3a-d9e399b60763" valueTypeId="3a36220a-501f-4035-ac71-a397914c2664"/>
     <managerType typeId="95945b80-885c-4450-b8aa-4876d1c4b3e9" valueTypeId="697b081d-95f1-4683-8473-148f48b9d386"/>
   </producedTypes>
-  <name>ИнструментыРазработчикаКонсольЗапросов1</name>
+  <name>ИнструментыРазработчикаКонсольЗапросов</name>
   <synonym>
     <key>ru</key>
     <value>Консоль запросов</value>
   </synonym>
   <comment></comment>
   <useStandardCommands>true</useStandardCommands>
-  <defaultForm>DataProcessor.ИнструментыРазработчикаКонсольЗапросов1.Form.Форма</defaultForm>
+  <defaultForm>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.Form.Форма</defaultForm>
   <help>
     <pages>
       <lang>ru</lang>

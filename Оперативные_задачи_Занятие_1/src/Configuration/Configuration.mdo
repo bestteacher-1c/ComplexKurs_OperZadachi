@@ -81,6 +81,6 @@
   <reports>Report.ОстаткиТоваровБезМакета</reports>
   <reports>Report.ОстаткиТоваров_ТабДок_НаОсновеМакета</reports>
   <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
-  <dataProcessors>DataProcessor.ИнструментыРазработчикаКонсольЗапросов1</dataProcessors>
+  <dataProcessors>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</dataProcessors>
   <informationRegisters>InformationRegister.НашиЦены</informationRegisters>
 </mdclass:Configuration>
