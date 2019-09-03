@@ -19,7 +19,6 @@
   <content>Document.РеализацияТоваровИУслуг</content>
   <content>Document.ПолучениеДенег</content>
   <content>Document.ВыплатаДенег</content>
-  <content>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</content>
   <content>AccumulationRegister.Продажи</content>
   <content>AccumulationRegister.Касса</content>
   <content>AccumulationRegister.Взаиморасчеты</content>

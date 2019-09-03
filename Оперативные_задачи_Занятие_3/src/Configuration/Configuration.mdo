@@ -83,8 +83,8 @@
   <reports>Report.ВзаиморасчетыСКонтрагентами</reports>
   <reports>Report.ВедомостьПоТоварам</reports>
   <reports>Report.ЗакупкиПоОтветственным</reports>
-  <dataProcessors>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
+  <dataProcessors>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</dataProcessors>
   <informationRegisters>InformationRegister.ПланированиеОказаниеУслуг</informationRegisters>
   <informationRegisters>InformationRegister.НашиЦены</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>

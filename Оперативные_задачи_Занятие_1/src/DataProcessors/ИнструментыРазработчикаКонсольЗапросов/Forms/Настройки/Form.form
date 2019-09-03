@@ -26,7 +26,7 @@
       </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>
-        <name>ИспользоватьАвтосохранениеРасширеннаяПодсказка</name>
+        <name>ИспользоватьАвтосохранениеExtendedTooltip</name>
         <id>17</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -76,7 +76,7 @@
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
-        <name>ПериодАвтосохраненияРасширеннаяПодсказка</name>
+        <name>ПериодАвтосохраненияExtendedTooltip</name>
         <id>18</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -130,7 +130,7 @@
       <value>Автосохранение</value>
     </toolTip>
     <extendedTooltip>
-      <name>АвтосохранениеРасширеннаяПодсказка</name>
+      <name>АвтосохранениеExtendedTooltip</name>
       <id>16</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -171,7 +171,7 @@
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
-      <name>ВыводитьВРезультатахЗапросаЗначенияСсылокРасширеннаяПодсказка</name>
+      <name>ВыводитьВРезультатахЗапросаЗначенияСсылокExtendedTooltip</name>
       <id>19</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -217,7 +217,7 @@
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
-      <name>ЧередованиеЦветовВРезультатеЗапросаРасширеннаяПодсказка</name>
+      <name>ЧередованиеЦветовВРезультатеЗапросаExtendedTooltip</name>
       <id>20</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -262,7 +262,7 @@
       </paths>
     </dataPath>
     <extendedTooltip>
-      <name>ТипОбходаРасширеннаяПодсказка</name>
+      <name>ТипОбходаExtendedTooltip</name>
       <id>21</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -316,7 +316,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ЗаписатьРасширеннаяПодсказка</name>
+        <name>ЗаписатьExtendedTooltip</name>
         <id>15</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -336,6 +336,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -396,5 +397,4 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:ObjectFormExtInfo"/>
 </form:Form>

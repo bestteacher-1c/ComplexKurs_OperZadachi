@@ -377,15 +377,15 @@
       <autoFill>true</autoFill>
     </autoCommandBar>
     <handlers>
-      <event>Selection</event>
+      <event>1282f000-23b6-4887-87f4-9e8e79db3d32</event>
       <name>ЗапросыВыбор</name>
     </handlers>
     <handlers>
-      <event>BeforeAddRow</event>
+      <event>2391e7b8-7235-45d7-ab7e-6ff3dc086396</event>
       <name>ЗапросыПередНачаломДобавления</name>
     </handlers>
     <handlers>
-      <event>BeforeDeleteRow</event>
+      <event>2ccfdec5-583d-4eca-8319-e55de492665a</event>
       <name>ЗапросыПередУдалением</name>
     </handlers>
     <searchStringAddition>
@@ -853,7 +853,7 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <commandName>Form.Item.Запросы.StandardCommand.MoveUp</commandName>
+        <commandName>1:37740564-9e86-44a0-bea9-3f485a5a3f91</commandName>
         <representation>Auto</representation>
         <onlyInAllActions>false</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
@@ -884,7 +884,7 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <commandName>Form.Item.Запросы.StandardCommand.MoveDown</commandName>
+        <commandName>1:fa51b106-eae6-44c7-8054-76cbb3100603</commandName>
         <representation>Auto</representation>
         <onlyInAllActions>false</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
@@ -945,7 +945,7 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <commandName>Form.Item.Запросы.StandardCommand.Copy</commandName>
+        <commandName>1:0ae4bea5-23be-42a7-b69e-97b11b29c453</commandName>
         <representation>PictureAndText</representation>
         <onlyInAllActions>false</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
@@ -976,7 +976,7 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <commandName>Form.Item.Запросы.StandardCommand.Change</commandName>
+        <commandName>1:b41f5bbc-ba5d-4888-8cd1-db246a371418</commandName>
         <representation>PictureAndText</representation>
         <onlyInAllActions>false</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1099,63 +1099,6 @@
       <common>true</common>
     </edit>
     <main>true</main>
-    <additionalColumns>
-      <tablePath xsi:type="form:DataPath">
-        <segments>Объект.Запросы</segments>
-      </tablePath>
-    </additionalColumns>
-    <additionalColumns>
-      <tablePath xsi:type="form:DataPath">
-        <segments>Объект.Параметры</segments>
-      </tablePath>
-      <columns>
-        <name>ТипВФорме</name>
-        <title>
-          <key>ru</key>
-          <value>Тип в форме</value>
-        </title>
-        <id>1</id>
-        <valueType>
-          <types>String</types>
-          <stringQualifiers/>
-        </valueType>
-        <view>
-          <common>true</common>
-        </view>
-        <edit>
-          <common>true</common>
-        </edit>
-      </columns>
-      <columns>
-        <name>ЗначениеВФорме</name>
-        <title>
-          <key>ru</key>
-          <value>Значение в форме</value>
-        </title>
-        <id>2</id>
-        <valueType>
-          <types>ValueList</types>
-          <types>Boolean</types>
-          <types>String</types>
-          <types>Date</types>
-          <types>Number</types>
-          <types>TypeDescription</types>
-          <types>AnyRef</types>
-          <numberQualifiers>
-            <precision>15</precision>
-            <scale>3</scale>
-          </numberQualifiers>
-          <stringQualifiers/>
-          <dateQualifiers/>
-        </valueType>
-        <view>
-          <common>true</common>
-        </view>
-        <edit>
-          <common>true</common>
-        </edit>
-      </columns>
-    </additionalColumns>
   </attributes>
   <attributes>
     <name>ИдентификаторТекущегоЗапроса</name>
@@ -1401,5 +1344,4 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:ObjectFormExtInfo"/>
 </form:Form>

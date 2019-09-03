@@ -30,7 +30,7 @@
         </paths>
       </dataPath>
       <extendedTooltip>
-        <name>НастройкитаблицыЗначенийНаименованиеКолонкиРасширеннаяПодсказка</name>
+        <name>НастройкитаблицыЗначенийНаименованиеКолонкиExtendedTooltip</name>
         <id>33</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -90,7 +90,7 @@
         <name>НастройкитаблицыЗначенийТипКолонкиПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>НастройкитаблицыЗначенийТипКолонкиРасширеннаяПодсказка</name>
+        <name>НастройкитаблицыЗначенийТипКолонкиExtendedTooltip</name>
         <id>34</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -179,7 +179,6 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>НастройкитаблицыЗначенийСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -218,7 +217,6 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>НастройкитаблицыЗначенийСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <horizontalLocation>Left</horizontalLocation>
@@ -258,13 +256,12 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>НастройкитаблицыЗначенийУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>НастройкитаблицыЗначенийРасширеннаяПодсказка</name>
+      <name>НастройкитаблицыЗначенийExtendedTooltip</name>
       <id>32</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -370,7 +367,6 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>ТаблицаЗначенийПараметрСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -409,7 +405,6 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>ТаблицаЗначенийПараметрСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <horizontalLocation>Left</horizontalLocation>
@@ -449,13 +444,12 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>ТаблицаЗначенийПараметрУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ТаблицаЗначенийПараметрРасширеннаяПодсказка</name>
+      <name>ТаблицаЗначенийПараметрExtendedTooltip</name>
       <id>35</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -517,7 +511,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>НастройкитаблицыЗначенийВыгрузитьТаблицуЗначенийРасширеннаяПодсказка</name>
+        <name>НастройкитаблицыЗначенийВыгрузитьТаблицуЗначенийExtendedTooltip</name>
         <id>24</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -537,6 +531,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:FormGroup">
       <name>ФормаГруппа1</name>
@@ -554,7 +549,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаДобавитьРасширеннаяПодсказка</name>
+          <name>ФормаДобавитьExtendedTooltip</name>
           <id>26</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -573,6 +568,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
         <name>ФормаСкопировать</name>
@@ -583,7 +579,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаСкопироватьРасширеннаяПодсказка</name>
+          <name>ФормаСкопироватьExtendedTooltip</name>
           <id>27</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -602,6 +598,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
         <name>ФормаИзменить</name>
@@ -612,7 +609,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаИзменитьРасширеннаяПодсказка</name>
+          <name>ФормаИзменитьExtendedTooltip</name>
           <id>28</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -631,6 +628,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
         <name>ФормаУдалить</name>
@@ -641,7 +639,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаУдалитьРасширеннаяПодсказка</name>
+          <name>ФормаУдалитьExtendedTooltip</name>
           <id>29</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -660,6 +658,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
         <name>ФормаСортироватьСписокПоВозрастанию</name>
@@ -670,7 +669,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаСортироватьСписокПоВозрастаниюРасширеннаяПодсказка</name>
+          <name>ФормаСортироватьСписокПоВозрастаниюExtendedTooltip</name>
           <id>30</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -689,6 +688,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
         <name>ФормаСортироватьСписокПоУбыванию</name>
@@ -699,7 +699,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаСортироватьСписокПоУбываниюРасширеннаяПодсказка</name>
+          <name>ФормаСортироватьСписокПоУбываниюExtendedTooltip</name>
           <id>31</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -718,6 +718,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -725,7 +726,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаГруппа1РасширеннаяПодсказка</name>
+        <name>ФормаГруппа1ExtendedTooltip</name>
         <id>25</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -775,58 +776,6 @@
       <common>true</common>
     </edit>
     <main>true</main>
-    <additionalColumns>
-      <tablePath xsi:type="form:DataPath">
-        <segments>Объект.Параметры</segments>
-      </tablePath>
-      <columns>
-        <name>ТипВФорме</name>
-        <title>
-          <key>ru</key>
-          <value>Тип в форме</value>
-        </title>
-        <id>1</id>
-        <valueType>
-          <types>String</types>
-          <stringQualifiers/>
-        </valueType>
-        <view>
-          <common>true</common>
-        </view>
-        <edit>
-          <common>true</common>
-        </edit>
-      </columns>
-      <columns>
-        <name>ЗначениеВФорме</name>
-        <title>
-          <key>ru</key>
-          <value>Значение в форме</value>
-        </title>
-        <id>2</id>
-        <valueType>
-          <types>ValueList</types>
-          <types>Boolean</types>
-          <types>String</types>
-          <types>Date</types>
-          <types>Number</types>
-          <types>UUID</types>
-          <types>AnyRef</types>
-          <numberQualifiers>
-            <precision>15</precision>
-            <scale>1</scale>
-          </numberQualifiers>
-          <stringQualifiers/>
-          <dateQualifiers/>
-        </valueType>
-        <view>
-          <common>true</common>
-        </view>
-        <edit>
-          <common>true</common>
-        </edit>
-      </columns>
-    </additionalColumns>
   </attributes>
   <attributes>
     <name>НастройкиТаблицыЗначений</name>
@@ -1013,5 +962,4 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:ObjectFormExtInfo"/>
 </form:Form>

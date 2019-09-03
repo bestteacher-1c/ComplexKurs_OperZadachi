@@ -176,57 +176,6 @@
       <common>true</common>
     </edit>
     <main>true</main>
-    <additionalColumns>
-      <tablePath xsi:type="form:DataPath">
-        <segments>Объект.Параметры</segments>
-      </tablePath>
-      <columns>
-        <name>ТипВФорме</name>
-        <title>
-          <key>ru</key>
-          <value>Тип в форме</value>
-        </title>
-        <id>1</id>
-        <valueType>
-          <types>String</types>
-          <stringQualifiers/>
-        </valueType>
-        <view>
-          <common>true</common>
-        </view>
-        <edit>
-          <common>true</common>
-        </edit>
-      </columns>
-      <columns>
-        <name>ЗначениеВФорме</name>
-        <title>
-          <key>ru</key>
-          <value>Значение в форме</value>
-        </title>
-        <id>2</id>
-        <valueType>
-          <types>Boolean</types>
-          <types>String</types>
-          <types>Date</types>
-          <types>Number</types>
-          <types>UUID</types>
-          <types>AnyRef</types>
-          <numberQualifiers>
-            <precision>15</precision>
-            <scale>3</scale>
-          </numberQualifiers>
-          <stringQualifiers/>
-          <dateQualifiers/>
-        </valueType>
-        <view>
-          <common>true</common>
-        </view>
-        <edit>
-          <common>true</common>
-        </edit>
-      </columns>
-    </additionalColumns>
   </attributes>
   <attributes>
     <name>Ссылка</name>
@@ -341,5 +290,4 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:ObjectFormExtInfo"/>
 </form:Form>

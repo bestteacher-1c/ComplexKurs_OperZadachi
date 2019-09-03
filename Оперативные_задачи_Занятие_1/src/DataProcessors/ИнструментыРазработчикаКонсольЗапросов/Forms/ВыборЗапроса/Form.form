@@ -85,7 +85,7 @@
         <name>ЗапросыИмяПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ЗапросыИмяРасширеннаяПодсказка</name>
+        <name>ЗапросыИмяExtendedTooltip</name>
         <id>35</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -185,7 +185,7 @@
         </paths>
       </dataPath>
       <extendedTooltip>
-        <name>ЗапросыIDРасширеннаяПодсказка</name>
+        <name>ЗапросыIDExtendedTooltip</name>
         <id>36</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -240,7 +240,7 @@
           </paths>
         </dataPath>
         <extendedTooltip>
-          <name>ЗапросыВремяВыполненияРасширеннаяПодсказка</name>
+          <name>ЗапросыВремяВыполненияExtendedTooltip</name>
           <id>38</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -292,7 +292,7 @@
           </paths>
         </dataPath>
         <extendedTooltip>
-          <name>ЗапросыКоличествоСтрокРасширеннаяПодсказка</name>
+          <name>ЗапросыКоличествоСтрокExtendedTooltip</name>
           <id>39</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -345,7 +345,7 @@
       </toolTip>
       <readOnly>true</readOnly>
       <extendedTooltip>
-        <name>ГруппаЗапросаРасширеннаяПодсказка</name>
+        <name>ГруппаЗапросаExtendedTooltip</name>
         <id>37</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -377,15 +377,15 @@
       <autoFill>true</autoFill>
     </autoCommandBar>
     <handlers>
-      <event>Selection</event>
+      <event>1282f000-23b6-4887-87f4-9e8e79db3d32</event>
       <name>ЗапросыВыбор</name>
     </handlers>
     <handlers>
-      <event>BeforeAddRow</event>
+      <event>2391e7b8-7235-45d7-ab7e-6ff3dc086396</event>
       <name>ЗапросыПередНачаломДобавления</name>
     </handlers>
     <handlers>
-      <event>BeforeDeleteRow</event>
+      <event>2ccfdec5-583d-4eca-8319-e55de492665a</event>
       <name>ЗапросыПередУдалением</name>
     </handlers>
     <searchStringAddition>
@@ -421,7 +421,6 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>ЗапросыСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -460,7 +459,6 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>ЗапросыСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <horizontalLocation>Left</horizontalLocation>
@@ -500,13 +498,12 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>ЗапросыУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ЗапросыРасширеннаяПодсказка</name>
+      <name>ЗапросыExtendedTooltip</name>
       <id>34</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -524,7 +521,7 @@
       <name>ЗапросыКонтекстноеМеню</name>
       <id>2</id>
       <items xsi:type="form:Button">
-        <name>ЗапросыЗапросыЗапросыКонтекстноеМенюСравнитьРезультатыЗапросов</name>
+        <name>ЗапросыКонтекстноеМенюСравнитьРезультатыЗапросов</name>
         <id>23</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -532,7 +529,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ЗапросыЗапросыЗапросыКонтекстноеМенюСравнитьРезультатыЗапросовРасширеннаяПодсказка</name>
+          <name>ЗапросыКонтекстноеМенюСравнитьРезультатыЗапросовExtendedTooltip</name>
           <id>33</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -551,6 +548,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -605,7 +603,7 @@
         </paths>
       </dataPath>
       <extendedTooltip>
-        <name>ИмяФайлаРасширеннаяПодсказка</name>
+        <name>ИмяФайлаExtendedTooltip</name>
         <id>40</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -652,7 +650,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ЗапросыСохранитьЗапросыВФайлРасширеннаяПодсказка</name>
+        <name>ЗапросыСохранитьЗапросыВФайлExtendedTooltip</name>
         <id>30</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -672,6 +670,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
       <name>ЗапросыВосстановитьЗапросыИзФайла</name>
@@ -682,7 +681,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ЗапросыВосстановитьЗапросыИзФайлаРасширеннаяПодсказка</name>
+        <name>ЗапросыВосстановитьЗапросыИзФайлаExtendedTooltip</name>
         <id>28</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -702,6 +701,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
       <name>ЗапросыСохранитьЗапросыВДругойФайл</name>
@@ -712,7 +712,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ЗапросыСохранитьЗапросыВДругойФайлРасширеннаяПодсказка</name>
+        <name>ЗапросыСохранитьЗапросыВДругойФайлExtendedTooltip</name>
         <id>31</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -732,6 +732,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
       <name>ФормаДобавитьЗапросыИзФайла</name>
@@ -742,7 +743,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаДобавитьЗапросыИзФайлаРасширеннаяПодсказка</name>
+        <name>ФормаДобавитьЗапросыИзФайлаExtendedTooltip</name>
         <id>29</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -762,6 +763,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -803,7 +805,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ЗапросыВыбратьЗапросРасширеннаяПодсказка</name>
+        <name>ЗапросыВыбратьЗапросExtendedTooltip</name>
         <id>25</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -823,6 +825,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:FormGroup">
       <name>ФормаГруппа1</name>
@@ -850,12 +853,13 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <commandName>Form.Item.Запросы.StandardCommand.MoveUp</commandName>
+        <commandName>1:37740564-9e86-44a0-bea9-3f485a5a3f91</commandName>
         <representation>Auto</representation>
         <onlyInAllActions>false</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
         <name>ЗапросыПереместитьВниз</name>
@@ -880,12 +884,13 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <commandName>Form.Item.Запросы.StandardCommand.MoveDown</commandName>
+        <commandName>1:fa51b106-eae6-44c7-8054-76cbb3100603</commandName>
         <representation>Auto</representation>
         <onlyInAllActions>false</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
         <name>ЗапросыВставить_</name>
@@ -915,6 +920,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
         <name>ЗапросыСкопировать</name>
@@ -939,12 +945,13 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <commandName>Form.Item.Запросы.StandardCommand.Copy</commandName>
+        <commandName>1:0ae4bea5-23be-42a7-b69e-97b11b29c453</commandName>
         <representation>PictureAndText</representation>
         <onlyInAllActions>false</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
         <name>ЗапросыИзменить</name>
@@ -969,12 +976,13 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <commandName>Form.Item.Запросы.StandardCommand.Change</commandName>
+        <commandName>1:b41f5bbc-ba5d-4888-8cd1-db246a371418</commandName>
         <representation>PictureAndText</representation>
         <onlyInAllActions>false</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -982,7 +990,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаГруппа1РасширеннаяПодсказка</name>
+        <name>ФормаГруппа1ExtendedTooltip</name>
         <id>26</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1009,7 +1017,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаГруппа2РасширеннаяПодсказка</name>
+        <name>ФормаГруппа2ExtendedTooltip</name>
         <id>27</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1034,7 +1042,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСравнитьРезультатыЗапросовРасширеннаяПодсказка</name>
+        <name>ФормаСравнитьРезультатыЗапросовExtendedTooltip</name>
         <id>32</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1054,6 +1062,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -1090,63 +1099,6 @@
       <common>true</common>
     </edit>
     <main>true</main>
-    <additionalColumns>
-      <tablePath xsi:type="form:DataPath">
-        <segments>Объект.Запросы</segments>
-      </tablePath>
-    </additionalColumns>
-    <additionalColumns>
-      <tablePath xsi:type="form:DataPath">
-        <segments>Объект.Параметры</segments>
-      </tablePath>
-      <columns>
-        <name>ТипВФорме</name>
-        <title>
-          <key>ru</key>
-          <value>Тип в форме</value>
-        </title>
-        <id>1</id>
-        <valueType>
-          <types>String</types>
-          <stringQualifiers/>
-        </valueType>
-        <view>
-          <common>true</common>
-        </view>
-        <edit>
-          <common>true</common>
-        </edit>
-      </columns>
-      <columns>
-        <name>ЗначениеВФорме</name>
-        <title>
-          <key>ru</key>
-          <value>Значение в форме</value>
-        </title>
-        <id>2</id>
-        <valueType>
-          <types>ValueList</types>
-          <types>Boolean</types>
-          <types>String</types>
-          <types>Date</types>
-          <types>Number</types>
-          <types>TypeDescription</types>
-          <types>AnyRef</types>
-          <numberQualifiers>
-            <precision>15</precision>
-            <scale>3</scale>
-          </numberQualifiers>
-          <stringQualifiers/>
-          <dateQualifiers/>
-        </valueType>
-        <view>
-          <common>true</common>
-        </view>
-        <edit>
-          <common>true</common>
-        </edit>
-      </columns>
-    </additionalColumns>
   </attributes>
   <attributes>
     <name>ИдентификаторТекущегоЗапроса</name>
@@ -1392,5 +1344,4 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:ObjectFormExtInfo"/>
 </form:Form>
