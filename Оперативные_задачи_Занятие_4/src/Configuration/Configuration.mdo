@@ -82,9 +82,9 @@
   <documentJournals>DocumentJournal.ПланированиеУслуг</documentJournals>
   <enums>Enum.МетодыСписанияСебестоимости</enums>
   <reports>Report.Продажи</reports>
-  <reports>Report.ВедомостьПоТоварам</reports>
   <reports>Report.ВзаиморасчетыСКонтрагентами</reports>
   <reports>Report.ЗакупкиПоОтветственным</reports>
+  <reports>Report.ВедомостьПоТоварам</reports>
   <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.РасчетСебестоимости</dataProcessors>
   <dataProcessors>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</dataProcessors>

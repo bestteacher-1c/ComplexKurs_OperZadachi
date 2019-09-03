@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7be3d65-09ea-496c-b34b-9ee27867c422">
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6edc63b-4be4-4c22-897d-d978e0caacf0">
   <producedTypes>
-    <objectType typeId="e6bc5bcc-097d-46cb-98b7-3b68818b4048" valueTypeId="d196f7da-ddb1-47a4-9f19-1d0977af8452"/>
-    <managerType typeId="30724b85-6873-4801-b008-16f37335946d" valueTypeId="65b79bb2-0793-4d14-9fbf-b29821a15b5f"/>
+    <objectType typeId="55caef73-909d-4a47-a0e2-4186e4867541" valueTypeId="b83f2381-d3da-46e2-a40c-6ba1071253bd"/>
+    <managerType typeId="69224f8d-67a7-4ea1-b5fc-92d199718cc9" valueTypeId="bdd95750-05ce-4676-ad88-727b8fa7c0a9"/>
   </producedTypes>
   <name>ВедомостьПоТоварам</name>
   <synonym>
@@ -12,7 +12,7 @@
   <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.ВедомостьПоТоварам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
-  <templates uuid="608180e9-f277-4eb7-ad0d-7bf387e9707e">
+  <templates uuid="b5115493-6fa6-4149-8528-2a54e50c4820">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>
       <key>ru</key>

@@ -29,7 +29,7 @@
   <content>DataProcessor.КонсольЗапросов</content>
   <content>Report.Продажи</content>
   <content>Report.ВзаиморасчетыСКонтрагентами</content>
-  <content>Report.ВедомостьПоТоварам</content>
   <content>AccumulationRegister.СвободныеОстатки</content>
   <content>Report.ЗакупкиПоОтветственным</content>
+  <content>Report.ВедомостьПоТоварам</content>
 </mdclass:Subsystem>

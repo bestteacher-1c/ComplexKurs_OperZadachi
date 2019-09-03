@@ -81,8 +81,8 @@
   <enums>Enum.МетодыСписанияСебестоимости</enums>
   <reports>Report.Продажи</reports>
   <reports>Report.ВзаиморасчетыСКонтрагентами</reports>
-  <reports>Report.ВедомостьПоТоварам</reports>
   <reports>Report.ЗакупкиПоОтветственным</reports>
+  <reports>Report.ВедомостьПоТоварам</reports>
   <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</dataProcessors>
   <informationRegisters>InformationRegister.ПланированиеОказаниеУслуг</informationRegisters>
