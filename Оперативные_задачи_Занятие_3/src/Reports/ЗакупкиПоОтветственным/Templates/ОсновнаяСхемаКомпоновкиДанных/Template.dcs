@@ -55,10 +55,6 @@
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 		<useRestriction>true</useRestriction>
 		<expression>&amp;Период.ДатаНачала</expression>
-		<valueListAllowed>false</valueListAllowed>
-		<availableAsField>true</availableAsField>
-		<denyIncompleteValues>false</denyIncompleteValues>
-		<use>Auto</use>
 	</parameter>
 	<parameter>
 		<name>Дата2</name>
@@ -77,10 +73,6 @@
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 		<useRestriction>true</useRestriction>
 		<expression>&amp;Период.ДатаОкончания</expression>
-		<valueListAllowed>false</valueListAllowed>
-		<availableAsField>true</availableAsField>
-		<denyIncompleteValues>false</denyIncompleteValues>
-		<use>Auto</use>
 	</parameter>
 	<parameter>
 		<name>Период</name>
@@ -96,12 +88,9 @@
 		<value xsi:type="v8:StandardPeriod">
 			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
 			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
-			<v8:endDate>0001-01-01T00:00:00</v8:endDate></value>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
 		<useRestriction>false</useRestriction>
-		<valueListAllowed>false</valueListAllowed>
-		<availableAsField>true</availableAsField>
-		<denyIncompleteValues>false</denyIncompleteValues>
-		<use>Auto</use>
 	</parameter>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
@@ -111,7 +100,7 @@
 				<v8:content>Кросс-таблица</v8:content>
 			</v8:item>
 		</dcsset:presentation>
-		<dcsset:settings xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Количество</dcsset:field>
@@ -125,7 +114,8 @@
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Период</dcscor:parameter>
 					<dcscor:value xsi:type="v8:StandardPeriod">
-						<v8:variant xsi:type="v8:StandardPeriodVariant">LastMonth</v8:variant></dcscor:value>
+						<v8:variant xsi:type="v8:StandardPeriodVariant">LastMonth</v8:variant>
+					</dcscor:value>
 					<dcsset:userSettingID>a5a73d0b-2d24-429e-a765-8a1628dc83f6</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
@@ -154,8 +144,7 @@
 					</dcsset:item>
 				</dcsset:groupItems>
 				<dcsset:order>
-					<dcsset:item xsi:type="dcsset:OrderItemAuto">
-					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
 				</dcsset:order>
 				<dcsset:selection>
 					<dcsset:item xsi:type="dcsset:SelectedItemField">
@@ -189,12 +178,10 @@
 							</dcsset:item>
 						</dcsset:groupItems>
 						<dcsset:order>
-							<dcsset:item xsi:type="dcsset:OrderItemAuto">
-							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
 						</dcsset:order>
 						<dcsset:selection>
-							<dcsset:item xsi:type="dcsset:SelectedItemAuto">
-							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
 						</dcsset:selection>
 					</dcsset:column>
 					<dcsset:row>
@@ -208,12 +195,10 @@
 							</dcsset:item>
 						</dcsset:groupItems>
 						<dcsset:order>
-							<dcsset:item xsi:type="dcsset:OrderItemAuto">
-							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
 						</dcsset:order>
 						<dcsset:selection>
-							<dcsset:item xsi:type="dcsset:SelectedItemAuto">
-							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
 						</dcsset:selection>
 					</dcsset:row>
 				</dcsset:item>
@@ -228,7 +213,7 @@
 				<v8:content>Диаграмма</v8:content>
 			</v8:item>
 		</dcsset:presentation>
-		<dcsset:settings xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Количество</dcsset:field>
@@ -242,7 +227,8 @@
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Период</dcscor:parameter>
 					<dcscor:value xsi:type="v8:StandardPeriod">
-						<v8:variant xsi:type="v8:StandardPeriodVariant">LastMonth</v8:variant></dcscor:value>
+						<v8:variant xsi:type="v8:StandardPeriodVariant">LastMonth</v8:variant>
+					</dcscor:value>
 					<dcsset:userSettingID>a5a73d0b-2d24-429e-a765-8a1628dc83f6</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
@@ -268,12 +254,10 @@
 						</dcsset:item>
 					</dcsset:groupItems>
 					<dcsset:order>
-						<dcsset:item xsi:type="dcsset:OrderItemAuto">
-						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
 					</dcsset:order>
 					<dcsset:selection>
-						<dcsset:item xsi:type="dcsset:SelectedItemAuto">
-						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
 					</dcsset:selection>
 				</dcsset:point>
 				<dcsset:series>
@@ -287,17 +271,14 @@
 						</dcsset:item>
 					</dcsset:groupItems>
 					<dcsset:order>
-						<dcsset:item xsi:type="dcsset:OrderItemAuto">
-						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
 					</dcsset:order>
 					<dcsset:selection>
-						<dcsset:item xsi:type="dcsset:SelectedItemAuto">
-						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
 					</dcsset:selection>
 				</dcsset:series>
 				<dcsset:selection>
-					<dcsset:item xsi:type="dcsset:SelectedItemAuto">
-					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
 				</dcsset:selection>
 				<dcsset:pointsUserSettingID>a4c027dd-6755-49fa-8a8a-1cf9494bcfa7</dcsset:pointsUserSettingID>
 				<dcsset:seriesUserSettingID>5dcf6e0c-c6a8-49f0-86f9-53318e20d8e9</dcsset:seriesUserSettingID>

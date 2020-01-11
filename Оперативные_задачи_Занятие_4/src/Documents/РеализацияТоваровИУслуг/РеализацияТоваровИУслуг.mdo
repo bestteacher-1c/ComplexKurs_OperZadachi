@@ -200,7 +200,7 @@
       </synonym>
       <comment></comment>
       <type>
-        <types>DefinedType.КоличествоНоменклатуры</types>
+        <types>DefinedType.Количество</types>
       </type>
       <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
@@ -239,7 +239,7 @@
       </synonym>
       <comment></comment>
       <type>
-        <types>DefinedType.СуммаНоменклатуры</types>
+        <types>DefinedType.ДенежнаяСумма</types>
       </type>
       <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>

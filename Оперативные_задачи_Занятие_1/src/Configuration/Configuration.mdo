@@ -56,8 +56,8 @@
   <commonModules>CommonModule.Сервис</commonModules>
   <commonModules>CommonModule.Серверный</commonModules>
   <eventSubscriptions>EventSubscription.УстановкаНовогоНомера</eventSubscriptions>
-  <definedTypes>DefinedType.КоличествоНоменклатуры</definedTypes>
-  <definedTypes>DefinedType.СуммаНоменклатуры</definedTypes>
+  <definedTypes>DefinedType.Количество</definedTypes>
+  <definedTypes>DefinedType.ДенежнаяСумма</definedTypes>
   <commandGroups>CommandGroup.Документы</commandGroups>
   <commandGroups>CommandGroup.Справочники</commandGroups>
   <commandGroups>CommandGroup.Регистры</commandGroups>

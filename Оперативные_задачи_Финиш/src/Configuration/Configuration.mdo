@@ -55,8 +55,8 @@
   <commonModules>CommonModule.Серверный</commonModules>
   <eventSubscriptions>EventSubscription.УстановкаНовогоНомера</eventSubscriptions>
   <scheduledJobs>ScheduledJob.РасчетСебестоимостиПродаж</scheduledJobs>
-  <definedTypes>DefinedType.КоличествоНоменклатуры</definedTypes>
-  <definedTypes>DefinedType.СуммаНоменклатуры</definedTypes>
+  <definedTypes>DefinedType.Количество</definedTypes>
+  <definedTypes>DefinedType.ДенежнаяСумма</definedTypes>
   <commandGroups>CommandGroup.Документы</commandGroups>
   <commandGroups>CommandGroup.Справочники</commandGroups>
   <commandGroups>CommandGroup.Регистры</commandGroups>

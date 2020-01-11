@@ -78,7 +78,7 @@
     </synonym>
     <comment></comment>
     <type>
-      <types>DefinedType.КоличествоНоменклатуры</types>
+      <types>DefinedType.Количество</types>
     </type>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>

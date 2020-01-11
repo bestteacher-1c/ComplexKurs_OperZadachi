@@ -9,7 +9,6 @@
     <key>ru</key>
     <value>Закупки по ответственным</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.ЗакупкиПоОтветственным.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
   <templates uuid="cda566e0-ed1c-4a0a-afb3-f4a4a51b5751">
@@ -18,7 +17,6 @@
       <key>ru</key>
       <value>Основная схема компоновки данных</value>
     </synonym>
-    <comment></comment>
     <templateType>DataCompositionSchema</templateType>
   </templates>
 </mdclass:Report>

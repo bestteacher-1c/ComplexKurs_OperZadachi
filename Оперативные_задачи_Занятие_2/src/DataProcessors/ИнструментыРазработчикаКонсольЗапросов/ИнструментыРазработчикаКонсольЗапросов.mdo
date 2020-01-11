@@ -11,11 +11,6 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.Form.Форма</defaultForm>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
   <attributes uuid="7140c3a3-f990-41ba-8c5c-cffb08af1dfc">
     <name>ИспользоватьАвтосохранение</name>
     <synonym>
