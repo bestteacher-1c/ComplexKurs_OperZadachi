@@ -3,9 +3,9 @@
   <name>РасчетныеЗадачи</name>
   <synonym>
     <key>ru</key>
-    <value>Расчетные задачи (Занятие 5)</value>
+    <value>Расчетные задачи (Финиш)</value>
   </synonym>
-  <comment>Занятие 5.</comment>
+  <comment>Финиш</comment>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="9da95f28-aa36-447f-a71e-aa3cb6220317"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="7fff94bd-050e-41cf-bcb9-feab642872ca"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="9b684f86-c896-48a1-b456-12b7f66e497f"/>
