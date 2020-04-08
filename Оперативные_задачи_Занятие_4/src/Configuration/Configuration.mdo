@@ -77,6 +77,8 @@
   <documents>Document.ОказаниеУслугСервисМенеджером</documents>
   <documents>Document.ЗаказПоставщику</documents>
   <documentNumerators>DocumentNumerator.Денежный</documentNumerators>
+  <sequences>Sequence.Товарная</sequences>
+  <sequences>Sequence.Себестоимость</sequences>
   <documentJournals>DocumentJournal.Товарный</documentJournals>
   <documentJournals>DocumentJournal.Касса</documentJournals>
   <documentJournals>DocumentJournal.ПланированиеУслуг</documentJournals>

@@ -13,5 +13,6 @@
   <comment></comment>
   <documents>Document.РеализацияТоваровИУслуг</documents>
   <registerRecords>AccumulationRegister.СвободныеОстатки</registerRecords>
+  <registerRecords>AccumulationRegister.ОстаткиТоваров</registerRecords>
   <dataLockControlMode>Managed</dataLockControlMode>
 </mdclass:Sequence>

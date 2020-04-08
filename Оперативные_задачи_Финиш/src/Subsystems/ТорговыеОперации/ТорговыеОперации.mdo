@@ -40,4 +40,5 @@
   <content>Sequence.Товарная</content>
   <content>Report.ЗакупкиПоОтветственным</content>
   <content>Report.ВедомостьПоТоварам</content>
+  <content>Sequence.Себестоимость</content>
 </mdclass:Subsystem>
