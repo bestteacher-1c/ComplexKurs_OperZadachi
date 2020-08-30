@@ -53,3 +53,24 @@ Caused by: java.util.concurrent.TimeoutException
 
 !ENTRY com._1c.g5.v8.dt.ui 1 0 2020-03-21 17:54:49.101
 !MESSAGE EDT закрывается
+!SESSION 2020-08-09 18:56:24.168 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.5-BellSoft
+java.vendor=BellSoft
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com._1c.g5.v8.dt.core 1 0 2020-08-09 19:01:54.240
+!MESSAGE java.vm.name=OpenJDK 64-Bit Client VM
+
+!ENTRY com._1c.g5.v8.dt.core 1 0 2020-08-09 19:01:54.273
+!MESSAGE java.vm.info=mixed mode
+
+!ENTRY com._1c.g5.v8.dt.platform.services.core 1 0 2020-08-09 19:01:54.954
+!MESSAGE Trying to re-establish all non-closed SSH connecton...
+
+!ENTRY com._1c.g5.v8.dt.ui 1 0 2020-08-09 19:02:39.226
+!MESSAGE EDT закрывается
+
+!ENTRY com._1c.g5.v8.dt.platform.services.core 1 0 2020-08-09 19:02:39.928
+!MESSAGE All known SSH connectons released

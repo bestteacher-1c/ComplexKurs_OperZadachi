@@ -9,7 +9,6 @@
     <key>ru</key>
     <value>В табличный документ (без макета)</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>Report.ОстаткиТоваровБезМакета.Form.ФормаОтчета</defaultForm>
   <extendedPresentation>
@@ -22,7 +21,6 @@
       <key>ru</key>
       <value>Форма отчета</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
