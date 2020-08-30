@@ -9,7 +9,6 @@
     <key>ru</key>
     <value>Консоль запросов (Обычное приложение)</value>
   </synonym>
-  <comment></comment>
   <defaultForm>DataProcessor.КонсольЗапросов.Form.Форма</defaultForm>
   <help>
     <pages>
@@ -22,11 +21,9 @@
       <key>ru</key>
       <value>Использовать автосохранение</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
@@ -36,14 +33,12 @@
       <key>ru</key>
       <value>Интервал автосохранения (с)</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Number</types>
       <numberQualifiers>
         <precision>10</precision>
       </numberQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
@@ -53,7 +48,6 @@
       <key>ru</key>
       <value>Форма</value>
     </synonym>
-    <comment></comment>
     <formType>Ordinary</formType>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -64,7 +58,6 @@
       <key>ru</key>
       <value>Форма параметров</value>
     </synonym>
-    <comment></comment>
     <formType>Ordinary</formType>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -75,7 +68,6 @@
       <key>ru_RU</key>
       <value>Форма вложенной таблицы</value>
     </synonym>
-    <comment></comment>
     <formType>Ordinary</formType>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -86,7 +78,6 @@
       <key>ru</key>
       <value>Форма выбора строки дерева запросов</value>
     </synonym>
-    <comment></comment>
     <formType>Ordinary</formType>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -97,7 +88,6 @@
       <key>ru</key>
       <value>Форма настройки автосохранения</value>
     </synonym>
-    <comment></comment>
     <formType>Ordinary</formType>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -108,7 +98,6 @@
       <key>ru</key>
       <value>Консоль запросов (обычное приложение)</value>
     </synonym>
-    <comment></comment>
     <group>ActionsPanelTools</group>
     <commandParameterType/>
     <representation>PictureAndText</representation>

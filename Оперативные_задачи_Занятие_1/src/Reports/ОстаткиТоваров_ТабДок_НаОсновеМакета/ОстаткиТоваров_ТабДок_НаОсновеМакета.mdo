@@ -9,7 +9,6 @@
     <key>ru</key>
     <value>В табличный документ (на основе макета)</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>Report.ОстаткиТоваров_ТабДок_НаОсновеМакета.Form.ФормаОтчета</defaultForm>
   <extendedPresentation>
@@ -22,12 +21,10 @@
       <key>ru</key>
       <value>Форма отчета</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <templates uuid="09473497-6c9e-4210-82cd-a95498b357d0">
     <name>Макет</name>
-    <comment></comment>
   </templates>
 </mdclass:Report>

@@ -8,7 +8,6 @@
     <key>ru</key>
     <value>Денежная сумма</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>Number</types>
     <numberQualifiers>

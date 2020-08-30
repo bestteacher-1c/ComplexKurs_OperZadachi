@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Отчеты</value>
   </synonym>
-  <comment></comment>
   <representation>Auto</representation>
   <picture xsi:type="core:PictureRef">
     <picture>StdPicture.Report</picture>
