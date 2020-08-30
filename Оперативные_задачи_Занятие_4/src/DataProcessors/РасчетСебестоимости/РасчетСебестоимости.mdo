@@ -9,7 +9,6 @@
     <key>ru</key>
     <value>Расчет себестоимости</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.РасчетСебестоимости.Form.Форма</defaultForm>
   <forms uuid="9730ff42-9576-43d9-b1a5-1205b9a298d2">
@@ -18,7 +17,6 @@
       <key>ru</key>
       <value>Форма</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

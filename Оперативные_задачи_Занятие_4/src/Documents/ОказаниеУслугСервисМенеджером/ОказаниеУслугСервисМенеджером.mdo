@@ -2,9 +2,7 @@
 <mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e74d9b4-aaf5-4271-ad8c-05d970af7890">
   <producedTypes>
     <objectType typeId="ee0369f2-cd29-4635-8d84-07d50877236e" valueTypeId="d109fd6a-21ae-4bf4-bb1d-bbcd019e1ec5"/>
-    <refType typeId="35e4aa15-a0ec-4e34-9645-51e739a4b68a" valueTypeId="97c4e1d3-3311-4dbf-ae94-8dab3fb15035">
-      <emptyRef/>
-    </refType>
+    <refType typeId="35e4aa15-a0ec-4e34-9645-51e739a4b68a" valueTypeId="97c4e1d3-3311-4dbf-ae94-8dab3fb15035"/>
     <selectionType typeId="53b2791b-00ca-4aec-9c1a-4a83389ba895" valueTypeId="515979b9-547b-43fe-aa8b-c4aa28187ff4"/>
     <listType typeId="1c11b3c5-687a-4a55-9550-0723f50830de" valueTypeId="6a00603b-bce1-4b37-b5e4-0f6ffa943a3a"/>
     <managerType typeId="1aa6d847-c89f-4cf5-9052-fb7b63913263" valueTypeId="250180ea-f41b-44c0-961d-af3ca35a0945"/>
@@ -14,58 +12,47 @@
     <key>ru</key>
     <value>Оказание услуг сервис менеджером</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.ОказаниеУслугСервисМенеджером.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Posted</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Ref</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>DeletionMark</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Date</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Number</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
@@ -87,11 +74,9 @@
       <key>ru</key>
       <value>Сервис менеджер</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.СервисМенеджеры</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -104,7 +89,6 @@
       <key>ru</key>
       <value>Форма документа</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -118,14 +102,11 @@
       <key>ru</key>
       <value>Состав</value>
     </synonym>
-    <comment></comment>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
       <name>LineNumber</name>
-      <comment></comment>
       <fillValue xsi:type="core:UndefinedValue"/>
       <fullTextSearch>Use</fullTextSearch>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
@@ -135,11 +116,9 @@
         <key>ru</key>
         <value>Контрагент</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>CatalogRef.Контрагенты</types>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
@@ -151,11 +130,9 @@
         <key>ru</key>
         <value>Услуга</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>CatalogRef.Номенклатура</types>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
@@ -167,11 +144,9 @@
         <key>ru</key>
         <value>Документ основание</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>DocumentRef.РеализацияТоваровИУслуг</types>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
@@ -183,14 +158,12 @@
         <key>ru</key>
         <value>Планируемая дата выполнения</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>Date</types>
         <dateQualifiers>
           <dateFractions>Date</dateFractions>
         </dateQualifiers>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>

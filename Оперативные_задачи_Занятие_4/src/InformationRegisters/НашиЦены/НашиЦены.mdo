@@ -14,7 +14,6 @@
     <key>ru</key>
     <value>Наши цены</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <defaultListForm>InformationRegister.НашиЦены.Form.ФормаСписка</defaultListForm>
@@ -31,7 +30,6 @@
       <key>ru</key>
       <value>Цена</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Number</types>
       <numberQualifiers>
@@ -40,7 +38,6 @@
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -54,11 +51,9 @@
       <key>ru</key>
       <value>Номенклатура</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Номенклатура</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -76,7 +71,6 @@
       <key>ru</key>
       <value>Форма списка</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
