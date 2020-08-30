@@ -41,24 +41,6 @@
 			</c>
 		</row>
 	</rowsItem>
-	<leftHeader>
-		<f>0</f>
-	</leftHeader>
-	<centerHeader>
-		<f>0</f>
-	</centerHeader>
-	<rightHeader>
-		<f>0</f>
-	</rightHeader>
-	<leftFooter>
-		<f>0</f>
-	</leftFooter>
-	<centerFooter>
-		<f>0</f>
-	</centerFooter>
-	<rightFooter>
-		<f>0</f>
-	</rightFooter>
 	<height>2</height>
 	<vgRows>2</vgRows>
 	<namedItem xsi:type="NamedItemCells">
