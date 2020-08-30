@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a0e25ce-a285-48e3-87d1-4c2ef9cea2b5">
+  <producedTypes>
+    <managerType typeId="21f1ddd5-5fc8-456c-805f-a57c864ef5ed" valueTypeId="e2b05be1-190a-42af-82f9-83d4025ebbe8"/>
+    <valueManagerType typeId="f6c666ba-44be-4f0c-8bea-3c71fb2b4919" valueTypeId="7d17190e-d0f0-482c-8957-a91309923f3c"/>
+    <valueKeyType typeId="987e0b40-a1af-5381-8a50-39543a5bee8d" valueTypeId="55ebce63-3d33-5cd5-b351-f2ea2f67a81a"/>
+  </producedTypes>
+  <name>МетодСписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Метод списания</value>
+  </synonym>
+  <type>
+    <types>EnumRef.МетодыСписанияСебестоимости</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
