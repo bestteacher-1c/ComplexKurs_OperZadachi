@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Расчет себестоимости продаж</value>
   </synonym>
-  <comment></comment>
   <methodName>CommonModule.Серверный.РасчетСебестоимостиПродаж</methodName>
   <description>РасчетСебестоимостиПродаж</description>
   <key>РасчетСебестоимостиПродаж</key>

@@ -10,7 +10,6 @@
     <key>ru</key>
     <value>Товарная</value>
   </synonym>
-  <comment></comment>
   <documents>Document.РеализацияТоваровИУслуг</documents>
   <registerRecords>AccumulationRegister.СвободныеОстатки</registerRecords>
   <registerRecords>AccumulationRegister.ОстаткиТоваров</registerRecords>
