@@ -78,6 +78,7 @@
   <registerRecords>AccumulationRegister.СебестоимостьТоваров</registerRecords>
   <registerRecords>InformationRegister.ПланированиеОказаниеУслуг</registerRecords>
   <registerRecords>AccumulationRegister.СебестоимостьТоваровПоПартиям</registerRecords>
+  <registerRecords>InformationRegister.ЗаданияНаРасчетСебестоимости</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="71527822-7c96-4a11-a45d-644f9459e76f">

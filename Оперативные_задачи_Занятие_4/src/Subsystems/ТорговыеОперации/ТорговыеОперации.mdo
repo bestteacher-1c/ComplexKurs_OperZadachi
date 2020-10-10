@@ -39,4 +39,5 @@
   <content>Report.ВедомостьПоТоварам</content>
   <content>Sequence.Себестоимость</content>
   <content>Sequence.Товарная</content>
+  <content>InformationRegister.ЗаданияНаРасчетСебестоимости</content>
 </mdclass:Subsystem>

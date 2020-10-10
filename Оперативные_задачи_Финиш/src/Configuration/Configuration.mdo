@@ -17,6 +17,10 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <useOrdinaryFormInManagedApplication>true</useOrdinaryFormInManagedApplication>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
   <mainSectionPicture/>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <logo/>
