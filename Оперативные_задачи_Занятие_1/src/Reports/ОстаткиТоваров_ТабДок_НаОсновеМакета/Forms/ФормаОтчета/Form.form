@@ -98,8 +98,7 @@
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
-    </extInfo>
+      <currentRowUse>Auto</currentRowUse>R    </extInfo>
   </items>
   <items xsi:type="form:FormField">
     <name>ТабДокНаФорме</name>
