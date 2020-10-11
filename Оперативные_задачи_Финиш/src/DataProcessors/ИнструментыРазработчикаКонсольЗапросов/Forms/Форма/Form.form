@@ -493,7 +493,8 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>Auto</currentRowUse>R        </extInfo>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
       </items>
       <items xsi:type="form:Table">
         <name>Параметры</name>
@@ -926,7 +927,6 @@
           <type>ViewStatusAddition</type>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
-            <horizontalLocation>Left</horizontalLocation>
           </extInfo>
         </viewStatusAddition>
         <searchControlAddition>
@@ -1120,7 +1120,8 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>Auto</currentRowUse>R        </extInfo>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
       </items>
       <items xsi:type="form:FormField">
         <name>РезультатЗапроса</name>
@@ -1642,7 +1643,8 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>Auto</currentRowUse>R        </extInfo>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1709,7 +1711,8 @@
     <type>Pages</type>
     <extInfo xsi:type="form:PagesGroupExtInfo">
       <pagesRepresentation>TabsOnTop</pagesRepresentation>
-      <currentRowUse>Auto</currentRowUse>R    </extInfo>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
     <name>Группа4</name>
@@ -1910,7 +1913,8 @@
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>Auto</currentRowUse>R      </extInfo>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -1938,7 +1942,8 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>Auto</currentRowUse>R    </extInfo>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
   </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>

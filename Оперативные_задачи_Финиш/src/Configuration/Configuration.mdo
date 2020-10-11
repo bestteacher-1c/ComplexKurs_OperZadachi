@@ -91,6 +91,7 @@
   <dataProcessors>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</dataProcessors>
   <informationRegisters>InformationRegister.НашиЦены</informationRegisters>
   <informationRegisters>InformationRegister.ПланированиеОказаниеУслуг</informationRegisters>
+  <informationRegisters>InformationRegister.ЗаданияНаРасчетСебестоимости</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Касса</accumulationRegisters>

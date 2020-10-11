@@ -88,7 +88,8 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>Auto</currentRowUse>R    </extInfo>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
     <name>ГруппаПланВыполненияЗапроса</name>
@@ -1023,7 +1024,6 @@
           <type>ViewStatusAddition</type>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
-            <horizontalLocation>Left</horizontalLocation>
           </extInfo>
         </viewStatusAddition>
         <searchControlAddition>
@@ -1438,7 +1438,8 @@
     </extendedTooltip>
     <type>Pages</type>
     <extInfo xsi:type="form:PagesGroupExtInfo">
-      <currentRowUse>Auto</currentRowUse>R    </extInfo>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
     <name>ГруппаСформированныйСКЛТекстЗапроса</name>
@@ -1533,7 +1534,8 @@
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>Auto</currentRowUse>R    </extInfo>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
     <name>РежимыВыводыИнформации</name>
@@ -1733,7 +1735,8 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>Auto</currentRowUse>R    </extInfo>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
   </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
