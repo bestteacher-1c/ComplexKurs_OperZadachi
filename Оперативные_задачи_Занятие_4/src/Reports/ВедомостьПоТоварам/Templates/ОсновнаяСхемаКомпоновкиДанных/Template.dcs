@@ -50,6 +50,106 @@
 				<dcscom:balanceType>ClosingBalance</dcscom:balanceType>
 			</role>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвободноНачальныйОстаток</dataPath>
+			<field>СвободноНачальныйОстаток</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Свободно начальный остаток</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвободноРасход</dataPath>
+			<field>СвободноРасход</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Свободно расход</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РезервПриход</dataPath>
+			<field>РезервПриход</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Резерв приход</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РезервНачальныйОстаток</dataPath>
+			<field>РезервНачальныйОстаток</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Резерв начальный остаток</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РезервОборот</dataPath>
+			<field>РезервОборот</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Резерв оборот</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РезервРасход</dataPath>
+			<field>РезервРасход</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Резерв расход</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвободноПриход</dataPath>
+			<field>СвободноПриход</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Свободно приход</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвободноОборот</dataPath>
+			<field>СвободноОборот</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Свободно оборот</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РезервКонечныйОстаток</dataPath>
+			<field>РезервКонечныйОстаток</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Резерв конечный остаток</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвободноКонечныйОстаток</dataPath>
+			<field>СвободноКонечныйОстаток</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Свободно конечный остаток</v8:content>
+				</v8:item>
+			</title>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ОстаткиТоваровОстаткиИОбороты.Номенклатура,
@@ -58,9 +158,65 @@
 	ОстаткиТоваровОстаткиИОбороты.КоличествоКонечныйОстаток,
 	ОстаткиТоваровОстаткиИОбороты.КоличествоОборот,
 	ОстаткиТоваровОстаткиИОбороты.КоличествоПриход,
+	ОстаткиТоваровОстаткиИОбороты.КоличествоРасход,
+	0 СвободноНачальныйОстаток,
+	0 СвободноКонечныйОстаток,
+	0 СвободноОборот,
+	0 СвободноПриход,
+	0 СвободноРасход,
+	0 РезервНачальныйОстаток,
+	0 РезервКонечныйОстаток,
+	0 РезервОборот,
+	0 РезервПриход,
+	0 РезервРасход
+ИЗ
+	РегистрНакопления.ОстаткиТоваров.ОстаткиИОбороты(,,,,) КАК ОстаткиТоваровОстаткиИОбороты
+
+объединить все
+
+ВЫБРАТЬ
+	ОстаткиТоваровОстаткиИОбороты.Номенклатура,
+	ОстаткиТоваровОстаткиИОбороты.Склад,
+	0,
+	0,
+	0,
+	0,
+	0,
+	ОстаткиТоваровОстаткиИОбороты.КоличествоНачальныйОстаток,
+	ОстаткиТоваровОстаткиИОбороты.КоличествоКонечныйОстаток,
+	ОстаткиТоваровОстаткиИОбороты.КоличествоОборот,
+	ОстаткиТоваровОстаткиИОбороты.КоличествоПриход,
+	ОстаткиТоваровОстаткиИОбороты.КоличествоРасход,
+	0 РезервНачальныйОстаток,
+	0 РезервКонечныйОстаток,
+	0 РезервОборот,
+	0 РезервПриход,
+	0 РезервРасход
+ИЗ
+	РегистрНакопления.СвободныеОстатки.ОстаткиИОбороты(,,,,) КАК ОстаткиТоваровОстаткиИОбороты
+
+объединить все
+
+ВЫБРАТЬ
+	ОстаткиТоваровОстаткиИОбороты.Номенклатура,
+	ОстаткиТоваровОстаткиИОбороты.Склад,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	ОстаткиТоваровОстаткиИОбороты.КоличествоНачальныйОстаток,
+	ОстаткиТоваровОстаткиИОбороты.КоличествоКонечныйОстаток,
+	ОстаткиТоваровОстаткиИОбороты.КоличествоОборот,
+	ОстаткиТоваровОстаткиИОбороты.КоличествоПриход,
 	ОстаткиТоваровОстаткиИОбороты.КоличествоРасход
 ИЗ
-	РегистрНакопления.ОстаткиТоваров.ОстаткиИОбороты(,,,,) КАК ОстаткиТоваровОстаткиИОбороты</query>
+	РегистрНакопления.ТоварыВрезерве.ОстаткиИОбороты(,,,,) КАК ОстаткиТоваровОстаткиИОбороты</query>
 	</dataSet>
 	<totalField>
 		<dataPath>КоличествоКонечныйОстаток</dataPath>
@@ -81,6 +237,46 @@
 	<totalField>
 		<dataPath>КоличествоРасход</dataPath>
 		<expression>Сумма(КоличествоРасход)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>РезервКонечныйОстаток</dataPath>
+		<expression>Сумма(РезервКонечныйОстаток)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>РезервНачальныйОстаток</dataPath>
+		<expression>Сумма(РезервНачальныйОстаток)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>РезервОборот</dataPath>
+		<expression>Сумма(РезервОборот)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>РезервПриход</dataPath>
+		<expression>Сумма(РезервПриход)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>РезервРасход</dataPath>
+		<expression>Сумма(РезервРасход)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СвободноКонечныйОстаток</dataPath>
+		<expression>Сумма(СвободноКонечныйОстаток)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СвободноНачальныйОстаток</dataPath>
+		<expression>Сумма(СвободноНачальныйОстаток)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СвободноОборот</dataPath>
+		<expression>Сумма(СвободноОборот)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СвободноПриход</dataPath>
+		<expression>Сумма(СвободноПриход)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СвободноРасход</dataPath>
+		<expression>Сумма(СвободноРасход)</expression>
 	</totalField>
 	<parameter>
 		<name>НачалоПериода</name>
@@ -148,16 +344,40 @@
 							<v8:content>Начальный остаток</v8:content>
 						</v8:item>
 					</dcsset:lwsTitle>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>КоличествоНачальныйОстаток</dcsset:field>
+					<dcsset:item xsi:type="dcsset:SelectedItemFolder">
 						<dcsset:lwsTitle>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
-								<v8:content>Количество</v8:content>
+								<v8:content>В наличии</v8:content>
 							</v8:item>
 						</dcsset:lwsTitle>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>КоличествоНачальныйОстаток</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Количество</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:placement>Auto</dcsset:placement>
 					</dcsset:item>
-					<dcsset:placement>Vertically</dcsset:placement>
+					<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>В том числе</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>СвободноНачальныйОстаток</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>РезервНачальныйОстаток</dcsset:field>
+						</dcsset:item>
+						<dcsset:placement>Vertically</dcsset:placement>
+					</dcsset:item>
+					<dcsset:placement>Horizontally</dcsset:placement>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
 					<dcsset:lwsTitle>
@@ -175,7 +395,22 @@
 							</v8:item>
 						</dcsset:lwsTitle>
 					</dcsset:item>
-					<dcsset:placement>Vertically</dcsset:placement>
+					<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>В том числе</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>СвободноПриход</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>РезервПриход</dcsset:field>
+						</dcsset:item>
+						<dcsset:placement>Vertically</dcsset:placement>
+					</dcsset:item>
+					<dcsset:placement>Horizontally</dcsset:placement>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
 					<dcsset:lwsTitle>
@@ -193,7 +428,22 @@
 							</v8:item>
 						</dcsset:lwsTitle>
 					</dcsset:item>
-					<dcsset:placement>Vertically</dcsset:placement>
+					<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>В том числе</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>СвободноРасход</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>РезервРасход</dcsset:field>
+						</dcsset:item>
+						<dcsset:placement>Vertically</dcsset:placement>
+					</dcsset:item>
+					<dcsset:placement>Horizontally</dcsset:placement>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
 					<dcsset:lwsTitle>
@@ -202,16 +452,40 @@
 							<v8:content>Конечный остаток</v8:content>
 						</v8:item>
 					</dcsset:lwsTitle>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>КоличествоКонечныйОстаток</dcsset:field>
+					<dcsset:item xsi:type="dcsset:SelectedItemFolder">
 						<dcsset:lwsTitle>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
-								<v8:content>Количество</v8:content>
+								<v8:content>В наличии</v8:content>
 							</v8:item>
 						</dcsset:lwsTitle>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>КоличествоКонечныйОстаток</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Количество</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:placement>Auto</dcsset:placement>
 					</dcsset:item>
-					<dcsset:placement>Vertically</dcsset:placement>
+					<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>В том числе</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>СвободноКонечныйОстаток</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>РезервКонечныйОстаток</dcsset:field>
+						</dcsset:item>
+						<dcsset:placement>Vertically</dcsset:placement>
+					</dcsset:item>
+					<dcsset:placement>Horizontally</dcsset:placement>
 				</dcsset:item>
 				<dcsset:viewMode>Normal</dcsset:viewMode>
 				<dcsset:userSettingID>e22d0386-bb7e-435c-a5db-023a2bed90e1</dcsset:userSettingID>
